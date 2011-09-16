@@ -1,0 +1,1292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2010-10-03 19:07+0000\n"
+"PO-Revision-Date: 2010-10-03 15:36-0500\n"
+"Last-Translator: Jeff Farthing <jeff@jfarthing.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ theme-my-login
+#. #-#-#-#-#  plugin.pot (Theme My Login 6.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-theme-my-login-admin.php:51
+#: admin/class-theme-my-login-admin.php:52
+#: includes/class-theme-my-login-widget.php:24
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:88
+#, fuzzy, php-format
+msgid "ERROR: The module \"%1$s\" could not be activated (%2$s)."
+msgstr "ОШИБКА: модуль \"$module\" не может быть активирован (%s)."
+
+#: admin/class-theme-my-login-admin.php:108
+msgid "NOTICE:"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:109
+#, php-format
+msgid "Now that you have activated Theme My Login, please <a href=\"%s\">visit the settings page</a> and familiarize yourself with all of the available options."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:111
+msgid "Take me to the settings page"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:124
+msgid "You can now login with your e-mail address or username! Try it out!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:125
+msgid "Theme My Login now utilizes a module system. Modules are similar to WordPress plugins. Each module extends the default functionality of Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Click here</a> to get started with modules now."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:126
+msgid "Theme My Login now allows custom forms. You can create your own form template(s) by copying the default version(s) from \"theme-my-login/templates\" to your current theme directory. Try it out!"
+msgstr ""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:127
+#, fuzzy
+msgid "You can maintain your stylesheet changes between upgrades. Just simply copy the file \"theme-my-login/theme-my-login.css\" to your current theme directory and edit it as you please!"
+msgstr "Для того, чтобы сохранить изменения, при обновлении, вы можете хранить ваши индивидуальные \"theme-my-login.css\"  в текущем каталоге темы."
+
+#: admin/class-theme-my-login-admin.php:128
+msgid "Theme My Login provides a shortcode that you can use within your posts with multiple parameters to customize the form. Visit the <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> for usage instructions."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:129
+msgid "Theme My Login is <em>FREE</em> but Jeff sure appreciates <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donations</a>!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:130
+msgid "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:134
+msgid "Did You Know?"
+msgstr ""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:175
+msgid "General"
+msgstr "Общие"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:176
+msgid "Basic"
+msgstr "Основные"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:177
+#: admin/class-theme-my-login-admin.php:305
+msgid "Modules"
+msgstr "Модули"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:184
+msgid "Theme My Login Settings"
+msgstr "Настройки Theme My Login"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:190
+#: admin/class-theme-my-login-admin.php:247
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:266
+msgid "Page ID"
+msgstr "ID страницы"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:269
+#, fuzzy
+msgid "This should be the ID of the WordPress page that includes the [theme-my-login] shortcode. By default, this page is titled \"Login\"."
+msgstr "Это идентификатор страницы WordPress, которая включает код [theme-my-login-page]. По умолчанию, эта страница называется \"Login\"."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:273
+msgid "Pagelist"
+msgstr "Список страниц"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:276
+msgid "Show Page In Pagelist"
+msgstr "Показывать в списке страниц"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:277
+msgid "Enable this setting to add login/logout links to the pagelist generated by functions like wp_list_pages() and wp_page_menu()."
+msgstr "Включите этот параметр, чтобы добавить ссылки Входа/Выхода в список страниц, порожденные функциями wp_list_pages () и wp_page_menu ()."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:281
+msgid "Stylesheet"
+msgstr "Стили"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:284
+msgid "Enable \"theme-my-login.css\""
+msgstr "Разрешить \"theme-my-login.css\""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:285
+msgid "In order to keep changes between upgrades, you can store your customized \"theme-my-login.css\" in your current theme directory."
+msgstr "Для того, чтобы сохранить изменения, при обновлении, вы можете хранить ваши индивидуальные \"theme-my-login.css\"  в текущем каталоге темы."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:309
+#, php-format
+msgid "Enable %s"
+msgstr "Разрешить %s"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:311
+msgid "No modules found."
+msgstr "Модули не найдены."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:422
+#, fuzzy
+msgid "One of the modules is invalid."
+msgstr "Один из плагинов является недействительным."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:475
+#, fuzzy
+msgid "Invalid module path."
+msgstr "Неверный путь плагина."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:477
+#, fuzzy
+msgid "Module file does not exist."
+msgstr "Плагин файл не существует."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:481
+#, fuzzy
+msgid "The module does not have a valid header."
+msgstr "Плагин не имеет действительный заголовок."
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:140
+#, php-format
+msgid "Welcome, %s"
+msgstr "» %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:144
+#: includes/class-theme-my-login-widget.php:86
+#: templates/register-form.php:25
+msgid "Register"
+msgstr "Регистрация"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:150
+#: includes/class-theme-my-login-widget.php:86
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:154
+#: includes/class-theme-my-login.php:393
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr "Войти"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:316
+#: modules/custom-user-links/custom-user-links.php:95
+msgid "Dashboard"
+msgstr "Консоль"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:317
+#: modules/custom-user-links/custom-user-links.php:96
+msgid "Profile"
+msgstr "Профиль"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:334
+#: modules/custom-redirection/custom-redirection.php:187
+msgid "Log out"
+msgstr "Выйти"
+
+#: includes/class-theme-my-login-template.php:363
+msgid "Register For This Site"
+msgstr ""
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:365
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Пожалуйста, введите ваше имя пользователя или адрес электронной почты. Вы получите новый пароль по электронной почте."
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:23
+msgid "A login form for your blog."
+msgstr "Форма входа на Ваш блог"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:86
+#, fuzzy
+msgid "Login"
+msgstr "Войти"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:87
+#, fuzzy
+msgid "Default Action"
+msgstr "Умолчание"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:94
+msgid "Show When Logged In"
+msgstr "Показать после входа в систему"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:96
+msgid "Show Title"
+msgstr "Показать название"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:98
+msgid "Show Login Link"
+msgstr "Показать ссылку входа"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:100
+msgid "Show Register Link"
+msgstr "Показать ссылку регистрации"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:102
+msgid "Show Lost Password Link"
+msgstr "Показать ссылку Забыли пароль?"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:104
+msgid "Show Gravatar"
+msgstr "Показать Gravatar"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:105
+msgid "Gravatar Size"
+msgstr "Размер Gravatar"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:107
+msgid "Allow Registration"
+msgstr "Разрешить регистрацию"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:109
+msgid "Allow Password Recovery"
+msgstr "Разрешить восстановление пароля"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:217
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Извините, что ключ не действительный."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:325
+#, fuzzy
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"http://www.google.com/cookies.html\">enable cookies</a> to use WordPress."
+msgstr "<strong>ОШИБКА:</strong> Куки заблокированы или не поддерживается браузером. Вы должны <a href='http://www.google.com/cookies.html'>разрешить куки</a> для использования WordPress."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:329
+msgid "You are now logged out."
+msgstr "Теперь Вы вышли из системы."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:331
+msgid "User registration is currently not allowed."
+msgstr "Регистрация пользователей в настоящее время не допускается."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:333
+msgid "Check your e-mail for the confirmation link."
+msgstr "Проверьте свой адрес электронной почты для подтверждения."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:335
+msgid "Check your e-mail for your new password."
+msgstr "Проверьте свой адрес электронной почты получения для нового пароля."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:337
+msgid "Registration complete. Please check your e-mail."
+msgstr "Регистрация завершена. Пожалуйста, проверьте свой адрес электронной почты."
+
+#: includes/class-theme-my-login.php:339
+msgid "Your session has expired. Please log-in again."
+msgstr ""
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:393
+msgid "Log Out"
+msgstr "Выйти"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:880
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>ОШИБКА:</strong> Пожалуйста, введите имя пользователя и адрес электронной почты."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:885
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>ОШИБКА:</strong> Пользователь с таким адресом электронной почты не зарегистрирован."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:897
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ОШИБКА:</strong> Неправильное имя пользователя или адрес электронной почты."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:911
+msgid "Password reset is not allowed for this user"
+msgstr "Сброс пароля не допускается для этого пользователя"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:924
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Кто-то попросил сменить пароль для входа на сайт и имя пользователя."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:926
+#: includes/class-theme-my-login.php:983
+#: modules/custom-email/custom-email.php:474
+#: modules/custom-email/custom-email.php:491
+#: modules/custom-passwords/custom-passwords.php:336
+#: modules/user-moderation/admin/user-moderation-admin.php:165
+#: modules/user-moderation/user-moderation.php:370
+#, php-format
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:927
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Чтобы восстановить свой пароль, перейдите по адресу, либо просто проигнорируйте это письмо, ничего не произойдет."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:938
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Сброс пароля"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "The e-mail could not be sent."
+msgstr "Электронная почта не может быть отправлена."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Возможная причина: Отключена функция mail() ..."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:965
+#: includes/class-theme-my-login.php:968
+#: includes/class-theme-my-login.php:972
+#: modules/custom-passwords/custom-passwords.php:290
+#: modules/custom-passwords/custom-passwords.php:294
+#: modules/custom-passwords/custom-passwords.php:299
+#: modules/user-moderation/user-moderation.php:248
+#: modules/user-moderation/user-moderation.php:251
+#: modules/user-moderation/user-moderation.php:256
+msgid "Invalid key"
+msgstr "Неверный ключ"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:984
+#: modules/custom-email/custom-email.php:492
+#: modules/custom-passwords/custom-passwords.php:337
+#: modules/user-moderation/admin/user-moderation-admin.php:166
+#, php-format
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:995
+#: modules/custom-passwords/custom-passwords.php:345
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Ваш новый пароль"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1026
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ОШИБКА:</strong> Пожалуйста, введите имя пользователя."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1028
+#, fuzzy
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>ОШИБКА:</strong> Имя пользователя неверно. Пожалуйста, введите имя пользователя."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1031
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>ОШИБКА:</strong> Это имя пользователя уже зарегистрировались, пожалуйста, выберите другое."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1036
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ОШИБКА:</strong> Пожалуйста, введите свой адрес электронной почты."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1038
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ОШИБКА:</strong> Aдрес электронной почты не верный."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1041
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ОШИБКА:</strong> Этот адрес уже зарегистрировались, пожалуйста, выберите другой."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1054
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>ОШИБКА:</strong> не удалось зарегистрировать вас ... пожалуйста, свяжитесь с <a href=\"mailto:%s\">администратором</a> !"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:43
+#: modules/custom-email/admin/custom-email-admin.php:170
+#: modules/user-moderation/admin/user-moderation-admin.php:333
+#, fuzzy
+msgid "User Notification"
+msgstr "Активация пользователя"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:46
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "Этот письмо будет выслано новому пользователю при регистрации."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:47
+#: modules/custom-email/admin/custom-email-admin.php:174
+#: modules/user-moderation/admin/user-moderation-admin.php:337
+msgid "Please be sure to include the variable %user_pass% if using default passwords or else the user will not know their password!"
+msgstr "Пожалуйста, не забудьте включить переменную %user_pass% в текст письма, иначе пользователь не будет знать свой пароль!"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:48
+#: modules/custom-email/admin/custom-email-admin.php:78
+#: modules/custom-email/admin/custom-email-admin.php:128
+#: modules/custom-email/admin/custom-email-admin.php:175
+#: modules/custom-email/admin/custom-email-admin.php:205
+#: modules/user-moderation/admin/user-moderation-admin.php:287
+#: modules/user-moderation/admin/user-moderation-admin.php:338
+#: modules/user-moderation/admin/user-moderation-admin.php:368
+#: modules/user-moderation/admin/user-moderation-admin.php:421
+#, fuzzy
+msgid "If any field is left empty, the default will be used instead."
+msgstr "Если какое-либо поле остается пустым, по умолчанию будет использоваться."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:51
+#: modules/custom-email/admin/custom-email-admin.php:84
+#: modules/custom-email/admin/custom-email-admin.php:131
+#: modules/custom-email/admin/custom-email-admin.php:178
+#: modules/custom-email/admin/custom-email-admin.php:211
+#: modules/user-moderation/admin/user-moderation-admin.php:290
+#: modules/user-moderation/admin/user-moderation-admin.php:341
+#: modules/user-moderation/admin/user-moderation-admin.php:374
+#: modules/user-moderation/admin/user-moderation-admin.php:424
+msgid "From Name"
+msgstr "Имя отправителя"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:54
+#: modules/custom-email/admin/custom-email-admin.php:87
+#: modules/custom-email/admin/custom-email-admin.php:134
+#: modules/custom-email/admin/custom-email-admin.php:181
+#: modules/custom-email/admin/custom-email-admin.php:214
+#: modules/user-moderation/admin/user-moderation-admin.php:293
+#: modules/user-moderation/admin/user-moderation-admin.php:344
+#: modules/user-moderation/admin/user-moderation-admin.php:377
+#: modules/user-moderation/admin/user-moderation-admin.php:427
+msgid "From E-mail"
+msgstr "Адрес электронной почты отправителя"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:57
+#: modules/custom-email/admin/custom-email-admin.php:90
+#: modules/custom-email/admin/custom-email-admin.php:137
+#: modules/custom-email/admin/custom-email-admin.php:184
+#: modules/custom-email/admin/custom-email-admin.php:217
+#: modules/user-moderation/admin/user-moderation-admin.php:296
+#: modules/user-moderation/admin/user-moderation-admin.php:347
+#: modules/user-moderation/admin/user-moderation-admin.php:380
+#: modules/user-moderation/admin/user-moderation-admin.php:430
+msgid "E-mail Format"
+msgstr "Формат электронной почты"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:63
+#: modules/custom-email/admin/custom-email-admin.php:96
+#: modules/custom-email/admin/custom-email-admin.php:143
+#: modules/custom-email/admin/custom-email-admin.php:190
+#: modules/custom-email/admin/custom-email-admin.php:223
+#: modules/user-moderation/admin/user-moderation-admin.php:302
+#: modules/user-moderation/admin/user-moderation-admin.php:353
+#: modules/user-moderation/admin/user-moderation-admin.php:386
+#: modules/user-moderation/admin/user-moderation-admin.php:436
+msgid "Subject"
+msgstr "Тема"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:66
+#: modules/custom-email/admin/custom-email-admin.php:99
+#: modules/custom-email/admin/custom-email-admin.php:146
+#: modules/custom-email/admin/custom-email-admin.php:193
+#: modules/custom-email/admin/custom-email-admin.php:226
+#: modules/user-moderation/admin/user-moderation-admin.php:305
+#: modules/user-moderation/admin/user-moderation-admin.php:356
+#: modules/user-moderation/admin/user-moderation-admin.php:389
+#: modules/user-moderation/admin/user-moderation-admin.php:439
+msgid "Message"
+msgstr "Сообщение"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:69
+#: modules/custom-email/admin/custom-email-admin.php:102
+#: modules/custom-email/admin/custom-email-admin.php:149
+#: modules/custom-email/admin/custom-email-admin.php:196
+#: modules/custom-email/admin/custom-email-admin.php:229
+#: modules/user-moderation/admin/user-moderation-admin.php:308
+#: modules/user-moderation/admin/user-moderation-admin.php:359
+#: modules/user-moderation/admin/user-moderation-admin.php:392
+#: modules/user-moderation/admin/user-moderation-admin.php:442
+msgid "Available Variables"
+msgstr "Доступные переменные"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:74
+#: modules/custom-email/admin/custom-email-admin.php:201
+#: modules/user-moderation/admin/user-moderation-admin.php:364
+#, fuzzy
+msgid "Admin Notification"
+msgstr "Отключить уведомления администратора"
+
+#: modules/custom-email/admin/custom-email-admin.php:77
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon new user registration."
+msgstr ""
+
+#: modules/custom-email/admin/custom-email-admin.php:81
+#: modules/custom-email/admin/custom-email-admin.php:208
+#: modules/user-moderation/admin/user-moderation-admin.php:371
+msgid "To"
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:126
+msgid "This e-mail will be sent to a user when they attempt to recover their password."
+msgstr "Это письмо будет отправлено пользователю, когда он пытается восстановить свой пароль."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:127
+msgid "Please be sure to include the variable %reseturl% or else the user will not be able to recover their password!"
+msgstr "Пожалуйста, не забудьте включить переменную %reseturl%, иначе пользователь не сможет восстановить свой пароль!"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:173
+msgid "This e-mail will be sent to a user upon successful password recovery."
+msgstr "Это письмо будет отправлено пользователю после успешного восстановления пароля."
+
+#: modules/custom-email/admin/custom-email-admin.php:204
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon user password change."
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:231
+#: modules/user-moderation/admin/user-moderation-admin.php:394
+msgid "Disable Admin Notification"
+msgstr "Отключить уведомления администратора"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:251
+#: templates/profile-form.php:86
+#: templates/register-form.php:16
+msgid "E-mail"
+msgstr "Электронная почта"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:252
+msgid "New User"
+msgstr "Новый пользователь"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:253
+msgid "Retrieve Password"
+msgstr "Получить пароль"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:254
+msgid "Reset Password"
+msgstr "Сброс пароля"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:473
+#, fuzzy, php-format
+msgid "New user registration on your site %s:"
+msgstr "Регистрация нового пользователя на вашем блоге %s:"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:475
+#: modules/user-moderation/user-moderation.php:371
+#, php-format
+msgid "E-mail: %s"
+msgstr "Электронная почта: %s"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:477
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Регистрация нового пользователя"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:495
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ваше имя пользователя и пароль"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:525
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Пароль Забыт/Изменен"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:526
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Пароль забыт и измененен для пользователя: %s"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:29
+msgid "Password:"
+msgstr "Пароль:"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:31
+#: templates/resetpass-form.php:16
+msgid "Confirm Password:"
+msgstr "Подтвердите пароль:"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:54
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>ОШИБКА:</strong> Пожалуйста, введите пароль."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:57
+msgid "<strong>ERROR</strong>: Your passwords do not match."
+msgstr "<strong>ОШИБКА:</strong> Пароли не совпадают."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:60
+msgid "<strong>ERROR</strong>: Your password must be at least 6 characters in length."
+msgstr "<strong>ОШИБКА:</strong> Ваш пароль должен содержать не менее 6 символов."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:188
+msgid "Please enter your username or e-mail address. You will receive an e-mail with a link to reset your password."
+msgstr "Пожалуйста, введите ваше имя пользователя или адрес электронной почты. Вы получите электронное письмо с ссылкой для восстановления пароля."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:191
+msgid "Please enter a new password."
+msgstr "Пожалуйста, введите новый пароль."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:224
+msgid "Registration complete. You may now log in."
+msgstr "Регистрация завершена. Теперь вы можете войти в систему"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:227
+msgid "Your password has been saved. You may now log in."
+msgstr "Ваш пароль был сохранен. Теперь вы можете войти в систему"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:148
+msgid "Redirection"
+msgstr "Перенаправление"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:175
+msgid "Log in"
+msgstr "Войти"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:177
+#: modules/custom-redirection/custom-redirection.php:189
+msgid "Default"
+msgstr "Умолчание"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:178
+msgid "Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "Выберете этот параметр, чтобы отправить пользователя на их Консоль/Профиль."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:179
+#: modules/custom-redirection/custom-redirection.php:191
+msgid "Referer"
+msgstr "Реферер"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:180
+msgid "Check this option to send the user back to the page they were visiting before logging in."
+msgstr "Выберете этот параметр, чтобы отправить пользователя на страницу, с которой он пришел на страницу входа в учетную запись"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:183
+#: modules/custom-redirection/custom-redirection.php:195
+msgid "Check this option to send the user to a custom location, specified by the textbox above."
+msgstr "Выберете этот параметр, чтобы отправить пользователя на страницу, указанную в текстовом поле выше."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:190
+msgid "Check this option to send the user to the log in page, displaying a message that they have successfully logged out."
+msgstr "Выберете этот параметр, чтобы отправить пользователя на страницу с сообщением об успешном выходе из системы."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:192
+msgid "Check this option to send the user back to the page they were visiting before logging out. (Note: If the previous page being visited was an admin page, this can have unexpected results.)"
+msgstr "Выберете этот параметр, чтобы отправить пользователя на страницу, на которой он был до выхода. (Примечание: Если предыдущяя страница была страницей администратора, то это может иметь неожиданные результаты.)"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:139
+msgid "User Links"
+msgstr "Пользовательские ссылки"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:229
+#: modules/custom-user-links/admin/custom-user-links-admin.php:252
+#: modules/custom-user-links/admin/custom-user-links-admin.php:297
+msgid "Title"
+msgstr "Название"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:230
+#: modules/custom-user-links/admin/custom-user-links-admin.php:253
+#: modules/custom-user-links/admin/custom-user-links-admin.php:301
+msgid "URL"
+msgstr "Ссылка"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:247
+msgid "Add New link:"
+msgstr "Добавить новую ссылку:"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:263
+msgid "Add link"
+msgstr "Добавить ссылку"
+
+# @ default
+#: modules/custom-user-links/admin/custom-user-links-admin.php:303
+msgid "Delete"
+msgstr "Удалить"
+
+# @ default
+#: modules/custom-user-links/admin/custom-user-links-admin.php:304
+msgid "Update"
+msgstr "Обновить"
+
+# @ theme-my-login
+#: modules/security/admin/security-admin.php:35
+#: modules/security/admin/security-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:50
+msgid "You can&#8217;t edit that user."
+msgstr "Вы не можете редактировать пользователей."
+
+#: modules/security/admin/security-admin.php:70
+msgid "User locked."
+msgstr ""
+
+#: modules/security/admin/security-admin.php:72
+msgid "User unlocked."
+msgstr ""
+
+#: modules/security/admin/security-admin.php:95
+msgid "Unlock"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:97
+msgid "Lock"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:116
+msgid "Security"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:136
+msgid "Login Attempts"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:141
+msgid "minute(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:142
+msgid "hour(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:143
+msgid "day(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:166
+#, php-format
+msgid "After %1$s failed login attempts within %2$s %3$s, lockout the account for %4$s %5$s."
+msgstr ""
+
+#: modules/security/security.php:43
+#: modules/security/security.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: This account has been locked because of too many failed login attempts. You may try again in %s."
+msgstr ""
+
+# @ theme-my-login
+#: modules/security/security.php:45
+#, fuzzy
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>ОШИБКА:</strong> Ваша регистрация еще не была утверждена."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:77
+#: templates/profile-form.php:125
+msgid "Strength indicator"
+msgstr "Индикатор силы"
+
+#: modules/themed-profiles/themed-profiles.php:78
+msgid "Very weak"
+msgstr ""
+
+#: modules/themed-profiles/themed-profiles.php:79
+msgid "Weak"
+msgstr ""
+
+#. translators: password strength
+#: modules/themed-profiles/themed-profiles.php:81
+msgctxt "password strength"
+msgid "Medium"
+msgstr ""
+
+#: modules/themed-profiles/themed-profiles.php:82
+msgid "Strong"
+msgstr ""
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:92
+msgid "You do not have permission to edit this user."
+msgstr "У вас нет прав на изменение этого пользователя."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:108
+msgid "Profile updated."
+msgstr "Профиль обновлен."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:178
+msgid "Your Profile"
+msgstr "Ваш профиль"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:83
+#, fuzzy
+msgid "User approved."
+msgstr "Подтверждение пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:85
+#, fuzzy
+msgid "Activation sent."
+msgstr "Активация пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:111
+#, fuzzy
+msgid "Resend Activation"
+msgstr "Активация пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:116
+#, fuzzy
+msgid "Approve"
+msgstr "Подтверждение пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:150
+#: modules/user-moderation/user-moderation.php:275
+msgid "Same as when you signed up."
+msgstr "То же, что, когда вы зарегистрировались."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:164
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "Вам был подтвержден доступ в % s."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:169
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] Регистрация подтверждена"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:203
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "Вы были лишены доступа в %s"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:204
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] Отказано в регистрации"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:226
+msgid "Moderation"
+msgstr "Модерация пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:228
+msgid "User Activation"
+msgstr "Активация пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:229
+msgid "User Approval"
+msgstr "Подтверждение пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:230
+msgid "User Denial"
+msgstr "Отказ пользователю"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:249
+msgid "User Moderation"
+msgstr "Модерация пользователя"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:252
+msgid "None"
+msgstr "Нет"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:253
+msgid "Check this option to require no moderation."
+msgstr "Выберете этот параметр для отмены модерации."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:255
+msgid "E-mail Confirmation"
+msgstr "Подтверждение по электронной почте"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:256
+msgid "Check this option to require new users to confirm their e-mail address before they may log in."
+msgstr "Выберете этот параметр, чтобы требовать от нового пользователя подтверждения своего адреса электронной почты, прежде чем они смогут войти."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:258
+msgid "Admin Approval"
+msgstr "Одобрение администратором"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:259
+msgid "Check this option to require new users to be approved by an administrator before they may log in."
+msgstr "Выберете этот параметр, чтобы требовать одобрения администратором новых пользователей, прежде чем они могут войти"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:285
+msgid "This e-mail will be sent to a new user upon registration when \"E-mail Confirmation\" is checked for \"User Moderation\"."
+msgstr "Это письмо будет выслано новому пользователю при регистрации, когда \" Подтверждение по электронной почте\" установлено на \"Мщдерации пользователь\"."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:286
+msgid "Please be sure to include the variable %activateurl% or else the user will not be able to activate their account!"
+msgstr "Пожалуйста, не забудьте включить переменную %activateurl% иначе пользователь не сможет активировать свою учетную запись!"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:336
+msgid "This e-mail will be sent to a new user upon admin approval when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Это письмо будет выслано новому пользователю после одобрения администратора, когда \"Одобрение администратором\" установлено на \"Модерации пользователя\"."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:367
+#, fuzzy
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below upon user registration when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Это письмо будет выслано новому пользователю после одобрения администратора, когда \"Одобрение администратором\" установлено на \"Модерации пользователя\"."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:420
+msgid "This e-mail will be sent to a user who is deleted/denied when \"Admin Approval\" is checked for \"User Moderation\" and the user's role is \"Pending\"."
+msgstr "Это письмо будет отправлено пользователю, который был удален/запрещен, если \"Одобрение администратором\" установлено на \"Модерации пользователя\" и роль пользователя является \"Ожидание\"."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:171
+#, fuzzy, php-format
+msgid "<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a href=\"%s\">Resend activation</a>?"
+msgstr "<strong>ОШИБКА:</strong> Вы еще не подтвердили свой адрес электронной почты адрес."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:174
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>ОШИБКА:</strong> Ваша регистрация еще не была утверждена."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:334
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Активируйте свой аккаунт"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:335
+#, php-format
+msgid "Thanks for registering at %s! To complete the activation of your account please click the following link: "
+msgstr "Спасибо за регистрацию на сайте %s! Для завершения активации учетной записи нажмите на следующую ссылку:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:367
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] Новый пользователь ожидает утверждения"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:369
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "Новый пользователь требует подтверждения регистрации в вашем блоге %s:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:372
+msgid "To approve or deny this user:"
+msgstr "Чтобы утвердить или отклонить этого пользователя:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:393
+msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
+msgstr "Ваша регистрация прошла успешно, но вы должны подтвердить свой адрес электронной почты, прежде чем вы сможете войти. Пожалуйста, проверьте свою электронную почту и нажмите на ссылку."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:395
+msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
+msgstr "Ваша регистрация прошла успешно, но вы должны быть одобрены администратором до входа. Вы будете уведомлены по электронной почте, когда ваш аккаунт был рассмотрен."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:398
+msgid "Your account has been activated. You may now log in."
+msgstr "Ваша учетная запись была активирована. Теперь вы можете войти в систему"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:400
+msgid "Your account has been activated. Please check your e-mail for your password."
+msgstr "Ваша учетная запись была активирована. Пожалуйста, проверьте свой адрес электронной почты."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:402
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>ОШИБКА:</strong> Извините, этот ключ не действительный."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:405
+#, fuzzy
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>ОШИБКА:</strong> Извините, этот ключ не действительный."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:407
+#, fuzzy
+msgid "The activation e-mail has been sent to the e-mail address with which you registered. Please check your email and click on the link provided."
+msgstr "Ваша регистрация прошла успешно, но вы должны подтвердить свой адрес электронной почты, прежде чем вы сможете войти. Пожалуйста, проверьте свою электронную почту и нажмите на ссылку."
+
+# @ theme-my-login
+#: templates/login-form.php:12
+#: templates/profile-form.php:34
+#: templates/register-form.php:12
+msgid "Username"
+msgstr "Имя пользователя"
+
+# @ theme-my-login
+#: templates/login-form.php:16
+msgid "Password"
+msgstr "Пароль"
+
+# @ theme-my-login
+#: templates/login-form.php:25
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+# @ theme-my-login
+#: templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "Имя пользователя или адрес электронной почты:"
+
+# @ theme-my-login
+#: templates/lostpassword-form.php:20
+msgid "Get New Password"
+msgstr "Получить новый пароль"
+
+# @ theme-my-login
+#: templates/profile-form.php:22
+msgid "Personal Options"
+msgstr "Личные настройки"
+
+# @ theme-my-login
+#: templates/profile-form.php:30
+msgid "Name"
+msgstr "Имя"
+
+# @ theme-my-login
+#: templates/profile-form.php:35
+msgid "Your username cannot be changed."
+msgstr "Имя пользователя (не может быть изменено)."
+
+# @ theme-my-login
+#: templates/profile-form.php:39
+msgid "First name"
+msgstr "Имя"
+
+# @ theme-my-login
+#: templates/profile-form.php:44
+msgid "Last name"
+msgstr "Фамилия"
+
+# @ theme-my-login
+#: templates/profile-form.php:49
+msgid "Nickname"
+msgstr "Прозвище"
+
+# @ theme-my-login
+#: templates/profile-form.php:49
+#: templates/profile-form.php:86
+msgid "(required)"
+msgstr "(обязательно)"
+
+# @ theme-my-login
+#: templates/profile-form.php:54
+msgid "Display name publicly as"
+msgstr "Показывать имя как"
+
+# @ theme-my-login
+#: templates/profile-form.php:82
+msgid "Contact Info"
+msgstr "Контакты"
+
+# @ theme-my-login
+#: templates/profile-form.php:91
+msgid "Website"
+msgstr "Веб-сайт"
+
+# @ theme-my-login
+#: templates/profile-form.php:108
+msgid "About Yourself"
+msgstr "О себе"
+
+# @ theme-my-login
+#: templates/profile-form.php:112
+msgid "Biographical Info"
+msgstr "Биографическая информация"
+
+# @ theme-my-login
+#: templates/profile-form.php:114
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Введите данные о себе. Эта информация может быть общедоступной."
+
+# @ theme-my-login
+#: templates/profile-form.php:122
+msgid "New Password"
+msgstr "Новый пароль"
+
+# @ theme-my-login
+#: templates/profile-form.php:123
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Если вы хотите изменить пароль введите новый. В противном случае оставьте это поле пустым."
+
+# @ theme-my-login
+#: templates/profile-form.php:124
+msgid "Type your new password again."
+msgstr "Введите новый пароль еще раз."
+
+# @ theme-my-login
+#: templates/profile-form.php:126
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Подсказка: пароль должен быть не менее 7 символов. Чтобы сделать его более сильным, используйте верхний и нижний регистр, цифры и символы, например ! \" ? $ % ^ &amp; )."
+
+# @ theme-my-login
+#: templates/profile-form.php:140
+msgid "Additional Capabilities"
+msgstr "Дополнительные возможности"
+
+# @ default
+#: templates/profile-form.php:159
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+# @ theme-my-login
+#: templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "Пароль будет отправлен на вашу электронную почту."
+
+# @ theme-my-login
+#: templates/resetpass-form.php:12
+msgid "New Password:"
+msgstr "Новый пароль:"
+
+# @ theme-my-login
+#: templates/resetpass-form.php:24
+msgid "Change Password"
+msgstr "Изменение пароля"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Themes the WordPress login, registration and forgot password pages according to your theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jeff Farthing"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.jfarthing.com"
+msgstr ""
+

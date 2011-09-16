@@ -1,0 +1,1184 @@
+# Translation of the WordPress plugin Theme My Login 5.0 by Jeff Farthing.
+# Copyright (C) 2010 Jeff Farthing
+# This file is distributed under the same license as the Theme My Login package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2010-10-03 19:07+0000\n"
+"PO-Revision-Date: 2010-10-03 15:28-0500\n"
+"Last-Translator: Jeff Farthing <jeff@jfarthing.com>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_nc:1,2;_nx:1,2;_n_noop:1,2;_nx_noop;_x;_c;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\theme-my-login\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\theme-my-login\n"
+
+#. #-#-#-#-#  plugin.pot (Theme My Login 6.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-theme-my-login-admin.php:51
+#: admin/class-theme-my-login-admin.php:52
+#: includes/class-theme-my-login-widget.php:24
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: admin/class-theme-my-login-admin.php:88
+#, php-format
+msgid "ERROR: The module \"%1$s\" could not be activated (%2$s)."
+msgstr "FEJL: Modulet \"%1$s\" kunne ikke aktiveres (%2$s)."
+
+#: admin/class-theme-my-login-admin.php:108
+msgid "NOTICE:"
+msgstr "BEMÆRK:"
+
+#: admin/class-theme-my-login-admin.php:109
+#, php-format
+msgid "Now that you have activated Theme My Login, please <a href=\"%s\">visit the settings page</a> and familiarize yourself with all of the available options."
+msgstr "Nu du har aktiveret Theme My Login, bedes du <a href=\"%s\">gå til siden med dets indstillinger</a> og gør dig selv fortrolig med alle de tilgængelige indstillinger."
+
+#: admin/class-theme-my-login-admin.php:111
+msgid "Take me to the settings page"
+msgstr "Jeg ønsker at gå til siden med indstillinger"
+
+#: admin/class-theme-my-login-admin.php:124
+msgid "You can now login with your e-mail address or username! Try it out!"
+msgstr "Du kan nu logge ind med din e-mail-adresse eller dit brugernavn! Prøv det!"
+
+#: admin/class-theme-my-login-admin.php:125
+msgid "Theme My Login now utilizes a module system. Modules are similar to WordPress plugins. Each module extends the default functionality of Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Click here</a> to get started with modules now."
+msgstr "Theme My Login bruger nu et modulsystem. Moduler svarer til WordPress-plugins. Hvert modul udvider standardfunktionaliteten i Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Klik her</a> for at starte med moduler med det samme."
+
+#: admin/class-theme-my-login-admin.php:126
+msgid "Theme My Login now allows custom forms. You can create your own form template(s) by copying the default version(s) from \"theme-my-login/templates\" to your current theme directory. Try it out!"
+msgstr "Theme My Login giver nu mulighed for brugerdefinerede formularer. Du kan oprette dine egne formularskabeloner ved at kopiere en standardudgave fra \"theme-my-login/templates\" til dit aktuelle temas mappe. Prøv det!"
+
+#: admin/class-theme-my-login-admin.php:127
+msgid "You can maintain your stylesheet changes between upgrades. Just simply copy the file \"theme-my-login/theme-my-login.css\" to your current theme directory and edit it as you please!"
+msgstr "Du kan beholde dine ændringer i stylesheetet mellem opdateringer. Du skal blot kopiere filen \"/theme-my-login/theme-my-login.css\" til dit aktuelle temas mappe og redigere den, som du har lyst!"
+
+#: admin/class-theme-my-login-admin.php:128
+msgid "Theme My Login provides a shortcode that you can use within your posts with multiple parameters to customize the form. Visit the <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> for usage instructions."
+msgstr "Theme My Login har <span title=\"shortcodes\">kortkoder</span>, som du kan bruge i dine indlæg med parametre, der tilpasser formularen. Gå til <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login-dokumentation</a> for at få brugsvejledning."
+
+#: admin/class-theme-my-login-admin.php:129
+msgid "Theme My Login is <em>FREE</em> but Jeff sure appreciates <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donations</a>!"
+msgstr "Theme My Login er <em>GRATIS</em>, men Jeff sætter da helt sikkert pris på <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donationer</a>!"
+
+#: admin/class-theme-my-login-admin.php:130
+msgid "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+msgstr "Jeff kan <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">hyres til opgaver</a>!"
+
+#: admin/class-theme-my-login-admin.php:134
+msgid "Did You Know?"
+msgstr "Vidste du?"
+
+#: admin/class-theme-my-login-admin.php:175
+msgid "General"
+msgstr "Generelt"
+
+#: admin/class-theme-my-login-admin.php:176
+msgid "Basic"
+msgstr "Grundlæggende"
+
+#: admin/class-theme-my-login-admin.php:177
+#: admin/class-theme-my-login-admin.php:305
+msgid "Modules"
+msgstr "Moduler"
+
+#: admin/class-theme-my-login-admin.php:184
+msgid "Theme My Login Settings"
+msgstr "Indstillinger for Theme My Login"
+
+#: admin/class-theme-my-login-admin.php:190
+#: admin/class-theme-my-login-admin.php:247
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: admin/class-theme-my-login-admin.php:266
+msgid "Page ID"
+msgstr "Side-id"
+
+#: admin/class-theme-my-login-admin.php:269
+msgid "This should be the ID of the WordPress page that includes the [theme-my-login] shortcode. By default, this page is titled \"Login\"."
+msgstr "Dette skal være id&#39;en på WordPress-siden, som indeholder [theme-my-login-page]-kortkoden. Som standard har denne side titlen \"Login\"."
+
+#: admin/class-theme-my-login-admin.php:273
+msgid "Pagelist"
+msgstr "Sideliste"
+
+#: admin/class-theme-my-login-admin.php:276
+msgid "Show Page In Pagelist"
+msgstr "Vis side i Sideliste"
+
+#: admin/class-theme-my-login-admin.php:277
+msgid "Enable this setting to add login/logout links to the pagelist generated by functions like wp_list_pages() and wp_page_menu()."
+msgstr "Aktivér denne indstilling for at tilføje login/logout-links til listen af sider genereret af funktioner som wp_list_pages() og wp_page_menu()."
+
+#: admin/class-theme-my-login-admin.php:281
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+#: admin/class-theme-my-login-admin.php:284
+msgid "Enable \"theme-my-login.css\""
+msgstr "Aktivér \"theme-my-login.css\""
+
+#: admin/class-theme-my-login-admin.php:285
+msgid "In order to keep changes between upgrades, you can store your customized \"theme-my-login.css\" in your current theme directory."
+msgstr "For at bevare ændringer mellem opdateringer, kan du gemme din tilpassede \"theme-my-login.css\"-fil i dit aktuelle temas mappe."
+
+#: admin/class-theme-my-login-admin.php:309
+#, php-format
+msgid "Enable %s"
+msgstr "Aktivér %s"
+
+#: admin/class-theme-my-login-admin.php:311
+msgid "No modules found."
+msgstr "Ingen moduler fundet."
+
+#: admin/class-theme-my-login-admin.php:422
+msgid "One of the modules is invalid."
+msgstr "En af modulerne er ugyldig."
+
+#: admin/class-theme-my-login-admin.php:475
+msgid "Invalid module path."
+msgstr "Ugyldig sti til modul."
+
+#: admin/class-theme-my-login-admin.php:477
+msgid "Module file does not exist."
+msgstr "Modulfilen eksisterer ikke."
+
+#: admin/class-theme-my-login-admin.php:481
+msgid "The module does not have a valid header."
+msgstr "Modulet har ikke en gyldig header."
+
+#: includes/class-theme-my-login-template.php:140
+#, php-format
+msgid "Welcome, %s"
+msgstr "Velkommen til, %s"
+
+#: includes/class-theme-my-login-template.php:144
+#: includes/class-theme-my-login-widget.php:86
+#: templates/register-form.php:25
+msgid "Register"
+msgstr "Registrér"
+
+#: includes/class-theme-my-login-template.php:150
+#: includes/class-theme-my-login-widget.php:86
+msgid "Lost Password"
+msgstr "Mistet kodeord"
+
+#: includes/class-theme-my-login-template.php:154
+#: includes/class-theme-my-login.php:393
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr "Log-in"
+
+#: includes/class-theme-my-login-template.php:316
+#: modules/custom-user-links/custom-user-links.php:95
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: includes/class-theme-my-login-template.php:317
+#: modules/custom-user-links/custom-user-links.php:96
+msgid "Profile"
+msgstr "Profil"
+
+#: includes/class-theme-my-login-template.php:334
+#: modules/custom-redirection/custom-redirection.php:187
+msgid "Log out"
+msgstr "Log ud"
+
+#: includes/class-theme-my-login-template.php:363
+msgid "Register For This Site"
+msgstr "Registrér dig på dette site"
+
+#: includes/class-theme-my-login-template.php:365
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Skriv dit brugernavn og din e-mail-adresse. Du får et nyt kodeord via e-mail."
+
+#: includes/class-theme-my-login-widget.php:23
+msgid "A login form for your blog."
+msgstr "En loginformular til din blog."
+
+#: includes/class-theme-my-login-widget.php:86
+msgid "Login"
+msgstr "Log ind"
+
+#: includes/class-theme-my-login-widget.php:87
+msgid "Default Action"
+msgstr "Standardhandling"
+
+#: includes/class-theme-my-login-widget.php:94
+msgid "Show When Logged In"
+msgstr "Vis, når logget ind"
+
+#: includes/class-theme-my-login-widget.php:96
+msgid "Show Title"
+msgstr "Vis titel"
+
+#: includes/class-theme-my-login-widget.php:98
+msgid "Show Login Link"
+msgstr "Vis loginlink"
+
+#: includes/class-theme-my-login-widget.php:100
+msgid "Show Register Link"
+msgstr "Vis registringslink"
+
+#: includes/class-theme-my-login-widget.php:102
+msgid "Show Lost Password Link"
+msgstr "Vis Glemt adgangskode-link"
+
+#: includes/class-theme-my-login-widget.php:104
+msgid "Show Gravatar"
+msgstr "Vis gravatar"
+
+#: includes/class-theme-my-login-widget.php:105
+msgid "Gravatar Size"
+msgstr "Gravatar-størrelse"
+
+#: includes/class-theme-my-login-widget.php:107
+msgid "Allow Registration"
+msgstr "Tillad registrering"
+
+#: includes/class-theme-my-login-widget.php:109
+msgid "Allow Password Recovery"
+msgstr "Tillad at få nyt kodeord"
+
+#: includes/class-theme-my-login.php:217
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Desværre. Den nøgle ser ikke ud til at være gyldig."
+
+#: includes/class-theme-my-login.php:325
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"http://www.google.com/cookies.html\">enable cookies</a> to use WordPress."
+msgstr "<strong>FEJL</strong>: Cookies er blokeret eller ikke understøttet af din browser. Du skal <a href=\"http://www.google.com/cookies.html\">aktivere cookies</a> for at bruge WordPress."
+
+#: includes/class-theme-my-login.php:329
+msgid "You are now logged out."
+msgstr "Du er nu logget ud."
+
+#: includes/class-theme-my-login.php:331
+msgid "User registration is currently not allowed."
+msgstr "Registrering af brugere er i øjeblikket ikke tilladt."
+
+#: includes/class-theme-my-login.php:333
+msgid "Check your e-mail for the confirmation link."
+msgstr "Tjek din e-mail for bekræftelseslinket."
+
+#: includes/class-theme-my-login.php:335
+msgid "Check your e-mail for your new password."
+msgstr "Tjek din e-mail for dit nye kodeord."
+
+#: includes/class-theme-my-login.php:337
+msgid "Registration complete. Please check your e-mail."
+msgstr "Registrering er færdig. Tjek din e-mail."
+
+#: includes/class-theme-my-login.php:339
+msgid "Your session has expired. Please log-in again."
+msgstr "Din session er udløbet. Log venligst ind igen."
+
+#: includes/class-theme-my-login.php:393
+msgid "Log Out"
+msgstr "Log ud"
+
+#: includes/class-theme-my-login.php:880
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>FEJL</strong>: Skriv et brugernavn eller e-mail-adresse."
+
+#: includes/class-theme-my-login.php:885
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>FEJL</strong>: Der er ingen bruger registreret med den e-mail-adresse."
+
+#: includes/class-theme-my-login.php:897
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>FEJL</strong>: Ugyldigt brugernavn eller e-mail."
+
+#: includes/class-theme-my-login.php:911
+msgid "Password reset is not allowed for this user"
+msgstr "Man kan ikke nulstille kodeord for denne bruger"
+
+#: includes/class-theme-my-login.php:924
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "En eller anden har anmodet om at få nulstillet kodeordet til følgende side og brugernavn."
+
+#: includes/class-theme-my-login.php:926
+#: includes/class-theme-my-login.php:983
+#: modules/custom-email/custom-email.php:474
+#: modules/custom-email/custom-email.php:491
+#: modules/custom-passwords/custom-passwords.php:336
+#: modules/user-moderation/admin/user-moderation-admin.php:165
+#: modules/user-moderation/user-moderation.php:370
+#, php-format
+msgid "Username: %s"
+msgstr "Brugernavn: %s"
+
+#: includes/class-theme-my-login.php:927
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Hvis du skal nulstille dit kodeord, skal du besøge følgende adresse. Ellers kan du bare ignorere denne e-mail, så vil intet ske."
+
+#: includes/class-theme-my-login.php:938
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Nulstilling af kodeord"
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "The e-mail could not be sent."
+msgstr "E-mailen kunne ikke sendes."
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Mulig grund: Din host har muligvis slået funktionen mail() fra..."
+
+#: includes/class-theme-my-login.php:965
+#: includes/class-theme-my-login.php:968
+#: includes/class-theme-my-login.php:972
+#: modules/custom-passwords/custom-passwords.php:290
+#: modules/custom-passwords/custom-passwords.php:294
+#: modules/custom-passwords/custom-passwords.php:299
+#: modules/user-moderation/user-moderation.php:248
+#: modules/user-moderation/user-moderation.php:251
+#: modules/user-moderation/user-moderation.php:256
+msgid "Invalid key"
+msgstr "Ugyldig kode"
+
+#: includes/class-theme-my-login.php:984
+#: modules/custom-email/custom-email.php:492
+#: modules/custom-passwords/custom-passwords.php:337
+#: modules/user-moderation/admin/user-moderation-admin.php:166
+#, php-format
+msgid "Password: %s"
+msgstr "Adgangskode: %s"
+
+#: includes/class-theme-my-login.php:995
+#: modules/custom-passwords/custom-passwords.php:345
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Din nye adgangskode"
+
+#: includes/class-theme-my-login.php:1026
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>FEJL</strong>: Skriv venligst et brugernavn."
+
+#: includes/class-theme-my-login.php:1028
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>FEJL</strong>: Brugernavnet er ugyldigt, fordi det indeholder tegn, der ikke er tilladte. Skriv venligst et gyldigt brugernavn."
+
+#: includes/class-theme-my-login.php:1031
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>FEJL</strong>: Brugernavnet findes allerede; vælg venligst et andet."
+
+#: includes/class-theme-my-login.php:1036
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>FEJL</strong>: Skriv venligst din e-mail-adresse."
+
+#: includes/class-theme-my-login.php:1038
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>FEJL</strong>: E-mail-adressen er ikke korrekt."
+
+#: includes/class-theme-my-login.php:1041
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>FEJL</strong>: E-mail-adressen er allerede registreret; vælg venligst en anden."
+
+#: includes/class-theme-my-login.php:1054
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>FEJL</strong>: Registrering mislykkedes ... kontakt venligst <a href=\"mailto:%s\">webmasteren</a>!"
+
+#: modules/custom-email/admin/custom-email-admin.php:43
+#: modules/custom-email/admin/custom-email-admin.php:170
+#: modules/user-moderation/admin/user-moderation-admin.php:333
+msgid "User Notification"
+msgstr "Underretning til bruger"
+
+#: modules/custom-email/admin/custom-email-admin.php:46
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "Denne e-mail sendes, når en ny bruger har registreret sig."
+
+#: modules/custom-email/admin/custom-email-admin.php:47
+#: modules/custom-email/admin/custom-email-admin.php:174
+#: modules/user-moderation/admin/user-moderation-admin.php:337
+msgid "Please be sure to include the variable %user_pass% if using default passwords or else the user will not know their password!"
+msgstr "Sørg for at bruge variablen %user_pass%, hvis du bruger standardadgangskoder. Ellers får brugeren ikke sin adgangskode."
+
+#: modules/custom-email/admin/custom-email-admin.php:48
+#: modules/custom-email/admin/custom-email-admin.php:78
+#: modules/custom-email/admin/custom-email-admin.php:128
+#: modules/custom-email/admin/custom-email-admin.php:175
+#: modules/custom-email/admin/custom-email-admin.php:205
+#: modules/user-moderation/admin/user-moderation-admin.php:287
+#: modules/user-moderation/admin/user-moderation-admin.php:338
+#: modules/user-moderation/admin/user-moderation-admin.php:368
+#: modules/user-moderation/admin/user-moderation-admin.php:421
+msgid "If any field is left empty, the default will be used instead."
+msgstr "Hvis en af disse felter ikke udfyldes, bruges standardværdien i stedet."
+
+#: modules/custom-email/admin/custom-email-admin.php:51
+#: modules/custom-email/admin/custom-email-admin.php:84
+#: modules/custom-email/admin/custom-email-admin.php:131
+#: modules/custom-email/admin/custom-email-admin.php:178
+#: modules/custom-email/admin/custom-email-admin.php:211
+#: modules/user-moderation/admin/user-moderation-admin.php:290
+#: modules/user-moderation/admin/user-moderation-admin.php:341
+#: modules/user-moderation/admin/user-moderation-admin.php:374
+#: modules/user-moderation/admin/user-moderation-admin.php:424
+msgid "From Name"
+msgstr "Fra-Navn"
+
+#: modules/custom-email/admin/custom-email-admin.php:54
+#: modules/custom-email/admin/custom-email-admin.php:87
+#: modules/custom-email/admin/custom-email-admin.php:134
+#: modules/custom-email/admin/custom-email-admin.php:181
+#: modules/custom-email/admin/custom-email-admin.php:214
+#: modules/user-moderation/admin/user-moderation-admin.php:293
+#: modules/user-moderation/admin/user-moderation-admin.php:344
+#: modules/user-moderation/admin/user-moderation-admin.php:377
+#: modules/user-moderation/admin/user-moderation-admin.php:427
+msgid "From E-mail"
+msgstr "Fra-E-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:57
+#: modules/custom-email/admin/custom-email-admin.php:90
+#: modules/custom-email/admin/custom-email-admin.php:137
+#: modules/custom-email/admin/custom-email-admin.php:184
+#: modules/custom-email/admin/custom-email-admin.php:217
+#: modules/user-moderation/admin/user-moderation-admin.php:296
+#: modules/user-moderation/admin/user-moderation-admin.php:347
+#: modules/user-moderation/admin/user-moderation-admin.php:380
+#: modules/user-moderation/admin/user-moderation-admin.php:430
+msgid "E-mail Format"
+msgstr "E-mail-format"
+
+#: modules/custom-email/admin/custom-email-admin.php:63
+#: modules/custom-email/admin/custom-email-admin.php:96
+#: modules/custom-email/admin/custom-email-admin.php:143
+#: modules/custom-email/admin/custom-email-admin.php:190
+#: modules/custom-email/admin/custom-email-admin.php:223
+#: modules/user-moderation/admin/user-moderation-admin.php:302
+#: modules/user-moderation/admin/user-moderation-admin.php:353
+#: modules/user-moderation/admin/user-moderation-admin.php:386
+#: modules/user-moderation/admin/user-moderation-admin.php:436
+msgid "Subject"
+msgstr "Emne"
+
+#: modules/custom-email/admin/custom-email-admin.php:66
+#: modules/custom-email/admin/custom-email-admin.php:99
+#: modules/custom-email/admin/custom-email-admin.php:146
+#: modules/custom-email/admin/custom-email-admin.php:193
+#: modules/custom-email/admin/custom-email-admin.php:226
+#: modules/user-moderation/admin/user-moderation-admin.php:305
+#: modules/user-moderation/admin/user-moderation-admin.php:356
+#: modules/user-moderation/admin/user-moderation-admin.php:389
+#: modules/user-moderation/admin/user-moderation-admin.php:439
+msgid "Message"
+msgstr "Besked"
+
+#: modules/custom-email/admin/custom-email-admin.php:69
+#: modules/custom-email/admin/custom-email-admin.php:102
+#: modules/custom-email/admin/custom-email-admin.php:149
+#: modules/custom-email/admin/custom-email-admin.php:196
+#: modules/custom-email/admin/custom-email-admin.php:229
+#: modules/user-moderation/admin/user-moderation-admin.php:308
+#: modules/user-moderation/admin/user-moderation-admin.php:359
+#: modules/user-moderation/admin/user-moderation-admin.php:392
+#: modules/user-moderation/admin/user-moderation-admin.php:442
+msgid "Available Variables"
+msgstr "Tilgængelige variabler"
+
+#: modules/custom-email/admin/custom-email-admin.php:74
+#: modules/custom-email/admin/custom-email-admin.php:201
+#: modules/user-moderation/admin/user-moderation-admin.php:364
+msgid "Admin Notification"
+msgstr "Underretning til admin"
+
+#: modules/custom-email/admin/custom-email-admin.php:77
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon new user registration."
+msgstr "Denne e-mail sendes til den eller de e-mail-adresser (flere adresser skal adskilles af kommaer), der indtastes nedenfor, når en ny bruger har registreret sig."
+
+#: modules/custom-email/admin/custom-email-admin.php:81
+#: modules/custom-email/admin/custom-email-admin.php:208
+#: modules/user-moderation/admin/user-moderation-admin.php:371
+msgid "To"
+msgstr "Til"
+
+#: modules/custom-email/admin/custom-email-admin.php:126
+msgid "This e-mail will be sent to a user when they attempt to recover their password."
+msgstr "Denne e-mail sendes til en bruger, når de forsøger at få en ny adgangskode."
+
+#: modules/custom-email/admin/custom-email-admin.php:127
+msgid "Please be sure to include the variable %reseturl% or else the user will not be able to recover their password!"
+msgstr "Sørg for at bruge variablen %reseturl%. Ellers vil brugeren ikke kunne få en ny adgangskode!"
+
+#: modules/custom-email/admin/custom-email-admin.php:173
+msgid "This e-mail will be sent to a user upon successful password recovery."
+msgstr "Denne e-mail sendes til en bruger, når han har fået en ny adgangskode."
+
+#: modules/custom-email/admin/custom-email-admin.php:204
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon user password change."
+msgstr "Denne e-mail sendes til den eller de e-mail-adresser (flere adresser skal adskilles af kommaer), der indtastes nedenfor, når der er blevet ændret et password."
+
+#: modules/custom-email/admin/custom-email-admin.php:231
+#: modules/user-moderation/admin/user-moderation-admin.php:394
+msgid "Disable Admin Notification"
+msgstr "Deaktivér besked til admin"
+
+#: modules/custom-email/admin/custom-email-admin.php:251
+#: templates/profile-form.php:86
+#: templates/register-form.php:16
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:252
+msgid "New User"
+msgstr "Ny bruger"
+
+#: modules/custom-email/admin/custom-email-admin.php:253
+msgid "Retrieve Password"
+msgstr "Generhverv kodeord"
+
+#: modules/custom-email/admin/custom-email-admin.php:254
+msgid "Reset Password"
+msgstr "Nulstil kodeord"
+
+#: modules/custom-email/custom-email.php:473
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Ny brugerregistrering på dit site %s:"
+
+#: modules/custom-email/custom-email.php:475
+#: modules/user-moderation/user-moderation.php:371
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: modules/custom-email/custom-email.php:477
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Ny brugerregistrering"
+
+#: modules/custom-email/custom-email.php:495
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Dit brugernavn og adgangskode"
+
+#: modules/custom-email/custom-email.php:525
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Kodeord tabt/ændret"
+
+#: modules/custom-email/custom-email.php:526
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Kodeord mistet og ændret for bruger: %s"
+
+#: modules/custom-passwords/custom-passwords.php:29
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: modules/custom-passwords/custom-passwords.php:31
+#: templates/resetpass-form.php:16
+msgid "Confirm Password:"
+msgstr "Bekræft adgangskode:"
+
+#: modules/custom-passwords/custom-passwords.php:54
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>FEJL</strong>: Indtast venligst en adgangskode."
+
+#: modules/custom-passwords/custom-passwords.php:57
+msgid "<strong>ERROR</strong>: Your passwords do not match."
+msgstr "<strong>FEJL</strong>: Dine adgangskoder matcher ikke."
+
+#: modules/custom-passwords/custom-passwords.php:60
+msgid "<strong>ERROR</strong>: Your password must be at least 6 characters in length."
+msgstr "<strong>FEJL</strong>: Din adgangskode skal være på mindst seks tegn."
+
+#: modules/custom-passwords/custom-passwords.php:188
+msgid "Please enter your username or e-mail address. You will receive an e-mail with a link to reset your password."
+msgstr "Indtast venligst dit brugernavn eller din e-mail-adresse. Du vil modtage en e-mail med et link til at få en ny adgangskode."
+
+#: modules/custom-passwords/custom-passwords.php:191
+msgid "Please enter a new password."
+msgstr "Indtast venligst en ny adgangskode."
+
+#: modules/custom-passwords/custom-passwords.php:224
+msgid "Registration complete. You may now log in."
+msgstr "Registrering er færdig. Du kan logge ind ny."
+
+#: modules/custom-passwords/custom-passwords.php:227
+msgid "Your password has been saved. You may now log in."
+msgstr "Din adgangskode er blevet gemt. Du kan logge ind nu."
+
+#: modules/custom-redirection/custom-redirection.php:148
+msgid "Redirection"
+msgstr "<span title=\"Redirection\">Viderestilling</span>"
+
+#: modules/custom-redirection/custom-redirection.php:175
+msgid "Log in"
+msgstr "Log ind"
+
+#: modules/custom-redirection/custom-redirection.php:177
+#: modules/custom-redirection/custom-redirection.php:189
+msgid "Default"
+msgstr "Standard"
+
+#: modules/custom-redirection/custom-redirection.php:178
+msgid "Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "Kryds af her, hvis du vil sende brugeren videre til deres WordPress-kontrolpanel/profil."
+
+#: modules/custom-redirection/custom-redirection.php:179
+#: modules/custom-redirection/custom-redirection.php:191
+msgid "Referer"
+msgstr "Referrer"
+
+#: modules/custom-redirection/custom-redirection.php:180
+msgid "Check this option to send the user back to the page they were visiting before logging in."
+msgstr "Kryds af her, hvis du vil sende brugeren tilbage til den side, de besøgte, før de loggede ind."
+
+#: modules/custom-redirection/custom-redirection.php:183
+#: modules/custom-redirection/custom-redirection.php:195
+msgid "Check this option to send the user to a custom location, specified by the textbox above."
+msgstr "Kryds af her, hvis du vil sende brugeren til det sted, der er angivet i tekstboksen ovenfor."
+
+#: modules/custom-redirection/custom-redirection.php:190
+msgid "Check this option to send the user to the log in page, displaying a message that they have successfully logged out."
+msgstr "Kryds af her, hvis du vil vise en besked om, at brugeren har logget sig ud, og sende ham videre til logind-siden."
+
+#: modules/custom-redirection/custom-redirection.php:192
+msgid "Check this option to send the user back to the page they were visiting before logging out. (Note: If the previous page being visited was an admin page, this can have unexpected results.)"
+msgstr "Kryds af her, hvis du vil sende brugeren tilbage til den side, han besøgte, før han loggede ud. (Bemærk, at hvis den forrige side var en admin-side, kan det få uventede resultater.)"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:139
+msgid "User Links"
+msgstr "Brugerlinks"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:229
+#: modules/custom-user-links/admin/custom-user-links-admin.php:252
+#: modules/custom-user-links/admin/custom-user-links-admin.php:297
+msgid "Title"
+msgstr "Titel"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:230
+#: modules/custom-user-links/admin/custom-user-links-admin.php:253
+#: modules/custom-user-links/admin/custom-user-links-admin.php:301
+msgid "URL"
+msgstr "URL"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:247
+msgid "Add New link:"
+msgstr "Tilføj nyt link:"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:263
+msgid "Add link"
+msgstr "Tilføj link"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:303
+msgid "Delete"
+msgstr "Slet"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:304
+msgid "Update"
+msgstr "Opdatér"
+
+#: modules/security/admin/security-admin.php:35
+#: modules/security/admin/security-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:50
+msgid "You can&#8217;t edit that user."
+msgstr "Du kan ikke redigere den bruger."
+
+#: modules/security/admin/security-admin.php:70
+msgid "User locked."
+msgstr "Bruger spærret."
+
+#: modules/security/admin/security-admin.php:72
+msgid "User unlocked."
+msgstr "Brugers spærring ophævet."
+
+#: modules/security/admin/security-admin.php:95
+msgid "Unlock"
+msgstr "Fjern spærring"
+
+#: modules/security/admin/security-admin.php:97
+msgid "Lock"
+msgstr "Spær"
+
+#: modules/security/admin/security-admin.php:116
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: modules/security/admin/security-admin.php:136
+msgid "Login Attempts"
+msgstr "Loginforsøg"
+
+#: modules/security/admin/security-admin.php:141
+msgid "minute(s)"
+msgstr "minut(ter)"
+
+#: modules/security/admin/security-admin.php:142
+msgid "hour(s)"
+msgstr "time(r)"
+
+#: modules/security/admin/security-admin.php:143
+msgid "day(s)"
+msgstr "dag(e)"
+
+#: modules/security/admin/security-admin.php:166
+#, php-format
+msgid "After %1$s failed login attempts within %2$s %3$s, lockout the account for %4$s %5$s."
+msgstr "Efter %1$s mislykkede loginforsøg indenfor %2$s %3$s skal kontoen spærres i %4$s %5$s."
+
+#: modules/security/security.php:43
+#: modules/security/security.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: This account has been locked because of too many failed login attempts. You may try again in %s."
+msgstr "<strong>FEJL</strong>: Denne konto er blevet spærret på grund af for mange loginforsøg. Du kan evt. prøve igen om %s."
+
+#: modules/security/security.php:45
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>FEJL</strong>: Denne konto er blevet spærret."
+
+#: modules/themed-profiles/themed-profiles.php:77
+#: templates/profile-form.php:125
+msgid "Strength indicator"
+msgstr "Styrke-indikator"
+
+#: modules/themed-profiles/themed-profiles.php:78
+msgid "Very weak"
+msgstr "Meget svag"
+
+#: modules/themed-profiles/themed-profiles.php:79
+msgid "Weak"
+msgstr "Svag"
+
+#. translators: password strength
+#: modules/themed-profiles/themed-profiles.php:81
+#, fuzzy
+msgctxt "password strength"
+msgid "Medium"
+msgstr "Middel"
+
+#: modules/themed-profiles/themed-profiles.php:82
+msgid "Strong"
+msgstr "Stærk"
+
+#: modules/themed-profiles/themed-profiles.php:92
+msgid "You do not have permission to edit this user."
+msgstr "Du har ikke tilladelse til at redigere denne bruger."
+
+#: modules/themed-profiles/themed-profiles.php:108
+msgid "Profile updated."
+msgstr "Profil opdateret."
+
+#: modules/themed-profiles/themed-profiles.php:178
+msgid "Your Profile"
+msgstr "Din profil"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:83
+msgid "User approved."
+msgstr "Bruger godkendt."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:85
+msgid "Activation sent."
+msgstr "Aktiverings-e-mail sendt."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:111
+msgid "Resend Activation"
+msgstr "Send aktiverings-e-mail igen"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:116
+msgid "Approve"
+msgstr "Godkende"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:150
+#: modules/user-moderation/user-moderation.php:275
+msgid "Same as when you signed up."
+msgstr "Den samme som da du registrerede dig."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:164
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "Du er blevet givet adgang til %s"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:169
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] Registrering godkendt"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:203
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "Du er nægtet adgang til %s"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:204
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] Registrering afvist."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:226
+msgid "Moderation"
+msgstr "Godkendelse"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:228
+msgid "User Activation"
+msgstr "Brugeraktivering"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:229
+msgid "User Approval"
+msgstr "Godkendelse af bruger"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:230
+msgid "User Denial"
+msgstr "Afvisning af bruger"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:249
+msgid "User Moderation"
+msgstr "Godkendelse af bruger"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:252
+msgid "None"
+msgstr "Ingen"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:253
+msgid "Check this option to require no moderation."
+msgstr "Kryds af her, hvis der ingen godkendelse skal være."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:255
+msgid "E-mail Confirmation"
+msgstr "Bekræftelsese-mail"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:256
+msgid "Check this option to require new users to confirm their e-mail address before they may log in."
+msgstr "Kryds af her, hvis nye brugere skal bekræfte deres e-mail-adresser, før de kan logge ind."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:258
+msgid "Admin Approval"
+msgstr "Admin-godkendelse"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:259
+msgid "Check this option to require new users to be approved by an administrator before they may log in."
+msgstr "Kryds af her, hvis nye brugere skal godkendes af en administrator, før de kan logge ind."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:285
+msgid "This e-mail will be sent to a new user upon registration when \"E-mail Confirmation\" is checked for \"User Moderation\"."
+msgstr "Denne e-mail sendes til nye brugere, når de har registreret sig, hvis \"E-mail bekræftelse\" er krydset af under \"Brugergodkendelse\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:286
+msgid "Please be sure to include the variable %activateurl% or else the user will not be able to activate their account!"
+msgstr "Sørg for at bruge variablen %activeurl%. Ellers kan brugeren ikke aktivere sin konto!"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:336
+msgid "This e-mail will be sent to a new user upon admin approval when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Denne e-mail sendes til en ny bruger, når administrator har godkendt ham, hvis \"Admin-godkendelse\" er krydset af under \"Brugergodkendelse\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:367
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below upon user registration when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Denne e-mail sendes til e-mail-adressen eller -adresserne (flere adresser adskilles af kommaer) opført nedenfor, når en bruger har registreret sig, hvis \"Admin-godkendelse\" er markeret ud for \"Brugergodkendelse\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:420
+msgid "This e-mail will be sent to a user who is deleted/denied when \"Admin Approval\" is checked for \"User Moderation\" and the user's role is \"Pending\"."
+msgstr "Denne e-mail sendes til en bruger, som er slettet/nægtet adgang, hvis \"Admin-godkendelse\" er krydset af under \"Brugergodkendelse\", og hvis brugerens rolle er \"Afventer\"."
+
+#: modules/user-moderation/user-moderation.php:171
+#, php-format
+msgid "<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a href=\"%s\">Resend activation</a>?"
+msgstr "<strong>FEJL</strong>: Du har ikke bekræftet din e-mail-adresse endnu. <a href=\"%s\">Send aktiverings-e-mail igen</a>?"
+
+#: modules/user-moderation/user-moderation.php:174
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>FEJL</strong>: Din registrering er endnu ikke blevet godkendt."
+
+#: modules/user-moderation/user-moderation.php:334
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Aktivér din konto"
+
+#: modules/user-moderation/user-moderation.php:335
+#, php-format
+msgid "Thanks for registering at %s! To complete the activation of your account please click the following link: "
+msgstr "Tak, fordi du har registreret dig på %s! For at aktivere din konto skal du venligst klikke på følgende link: "
+
+#: modules/user-moderation/user-moderation.php:367
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] Ny bruger afventer godkendelse"
+
+#: modules/user-moderation/user-moderation.php:369
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "Ny bruger på din blog %s kræver godkendelse:"
+
+#: modules/user-moderation/user-moderation.php:372
+msgid "To approve or deny this user:"
+msgstr "For at godkende eller afvise denne bruger:"
+
+#: modules/user-moderation/user-moderation.php:393
+msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
+msgstr "Din registrering blev gennemført. Du skal nu bekræfte din e-mail-adresse, før du kan logge ind. Tjek venligst din e-mail og klik på det link, du har fået tilsendt."
+
+#: modules/user-moderation/user-moderation.php:395
+msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
+msgstr "Din registrering blev gennemført. Den skal nu godkendes af en administrator, før du kan logge ind. Du vil få besked pr. e-mail, når din konto er blevet tjekket."
+
+#: modules/user-moderation/user-moderation.php:398
+msgid "Your account has been activated. You may now log in."
+msgstr "Din konto er blevet aktiveret. Du kan logge ind nu."
+
+#: modules/user-moderation/user-moderation.php:400
+msgid "Your account has been activated. Please check your e-mail for your password."
+msgstr "Din konto er blevet aktiveret. Tjek venligst din e-mail for din adgangskode."
+
+#: modules/user-moderation/user-moderation.php:402
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>FEJL</strong>: Beklager, koden ser ikke ud til at være gyldig."
+
+#: modules/user-moderation/user-moderation.php:405
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>FEJL</strong>: Beklager, aktiverings-e-mailen kunne ikke sendes."
+
+#: modules/user-moderation/user-moderation.php:407
+msgid "The activation e-mail has been sent to the e-mail address with which you registered. Please check your email and click on the link provided."
+msgstr "Din aktiverings-e-mail er blevet sendt til den e-mail-adresse, du registrerede dig med. Tjek venligst din e-mail og klik på det link, du har fået tilsendt."
+
+#: templates/login-form.php:12
+#: templates/profile-form.php:34
+#: templates/register-form.php:12
+msgid "Username"
+msgstr "Brugernavn"
+
+#: templates/login-form.php:16
+msgid "Password"
+msgstr "Adgangskode"
+
+#: templates/login-form.php:25
+msgid "Remember Me"
+msgstr "Husk mig"
+
+#: templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "Brugernavn eller e-mail:"
+
+#: templates/lostpassword-form.php:20
+msgid "Get New Password"
+msgstr "Få nyt kodeord"
+
+#: templates/profile-form.php:22
+msgid "Personal Options"
+msgstr "Personlige indstillinger"
+
+#: templates/profile-form.php:30
+msgid "Name"
+msgstr "Navn"
+
+#: templates/profile-form.php:35
+msgid "Your username cannot be changed."
+msgstr "Dit brugernavn kan ikke ændres"
+
+#: templates/profile-form.php:39
+msgid "First name"
+msgstr "Fornavn"
+
+#: templates/profile-form.php:44
+msgid "Last name"
+msgstr "Efternavn"
+
+#: templates/profile-form.php:49
+msgid "Nickname"
+msgstr "Kaldenavn"
+
+#: templates/profile-form.php:49
+#: templates/profile-form.php:86
+msgid "(required)"
+msgstr "(skal udfyldes)"
+
+#: templates/profile-form.php:54
+msgid "Display name publicly as"
+msgstr "Vis navn offentligt som"
+
+#: templates/profile-form.php:82
+msgid "Contact Info"
+msgstr "Kontaktinformationer"
+
+#: templates/profile-form.php:91
+msgid "Website"
+msgstr "Website"
+
+#: templates/profile-form.php:108
+msgid "About Yourself"
+msgstr "Om dig"
+
+#: templates/profile-form.php:112
+msgid "Biographical Info"
+msgstr "Biografisk info"
+
+#: templates/profile-form.php:114
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Del lidt biografiske informationer om dig selv i din profil. De er tilgængelige for andre."
+
+#: templates/profile-form.php:122
+msgid "New Password"
+msgstr "Nyt kodeord"
+
+#: templates/profile-form.php:123
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Hvis du vil ændre brugerens kodeord, skal du skrive et nyt. Ellers skal du bare lade være med at udfylde feltet."
+
+#: templates/profile-form.php:124
+msgid "Type your new password again."
+msgstr "Skriv din adgangskode igen."
+
+#: templates/profile-form.php:126
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Tip: Dit kodeord skal være mindst syv tegn langt. For at gøre det stærkere bør du bruge store og små bogstaver, tal og symboler som ! \" ? $ % ^ &amp; )."
+
+#: templates/profile-form.php:140
+msgid "Additional Capabilities"
+msgstr "Yderligere muligheder"
+
+#: templates/profile-form.php:159
+msgid "Update Profile"
+msgstr "Opdatér profil"
+
+#: templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "Et kodeord vil blive mailet til dig."
+
+#: templates/resetpass-form.php:12
+msgid "New Password:"
+msgstr "Ny adgangskode:"
+
+#: templates/resetpass-form.php:24
+msgid "Change Password"
+msgstr "Ændr adgangskode"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+msgstr "http://www.jfarthing.com/wordpress-plugins/theme-my-login-plugin"
+
+#. Description of the plugin/theme
+msgid "Themes the WordPress login, registration and forgot password pages according to your theme."
+msgstr "Tilpasser siderne med WordPress-login, registrering og hittegodskontor for adgangskoder til dit tema."
+
+#. Author of the plugin/theme
+msgid "Jeff Farthing"
+msgstr "Jeff Farthing"
+
+#. Author URI of the plugin/theme
+msgid "http://www.jfarthing.com"
+msgstr "http://www.jfarthing.com"
+
+#~ msgid "Links"
+#~ msgstr "Links"
+
+#~ msgid "Rewrite Login Links"
+#~ msgstr "Genskriv login-links"
+
+#~ msgid ""
+#~ "Enable this setting to rewrite links generated by functions like "
+#~ "wp_loginout() and wp_register()."
+#~ msgstr ""
+#~ "Aktivér denne indstilling for at omskrive links genereret af funktioner "
+#~ "som wp_loginout() og wp_register()."
+
+#~ msgid "Optimization"
+#~ msgstr "Optimering"
+
+#~ msgid "Enable Template Tag"
+#~ msgstr "Aktivér skabelon-tag"
+
+#~ msgid ""
+#~ "Enable this setting if you wish to use the theme_my_login() template tag. "
+#~ "Otherwise, leave it disabled for optimization purposes."
+#~ msgstr ""
+#~ "Aktivér denne indstilling, hvis du ønsker at bruge theme_my_login()-"
+#~ "skabelontagget. Ellers skal du lade det være deaktiveret, så pluginnet "
+#~ "fungerer så effektivt som muligt."
+
+#~ msgid "Enable Widget"
+#~ msgstr "Aktivér widget"
+
+#~ msgid ""
+#~ "Enable this setting if you wish to use the \"Theme My Login\" widget. "
+#~ "Otherwise, leave it disabled for optimization purposes."
+#~ msgstr ""
+#~ "Aktivér denne indstilling, hvis du ønsker at bruge \"Theme My Login\"-"
+#~ "widgetten. Ellers skal du lade det være deaktiveret, så pluginnet "
+#~ "fungerer så effektivt som muligt."
+
+#~ msgid ""
+#~ "If you like this plugin, please help keep it up to date by <a href="
+#~ "\"http://www.jfarthing.com/donate\">donating through PayPal</a>!"
+#~ msgstr ""
+#~ "Hvis du kan lide dette plugin, så hjælp os med at holde det opdateret ved "
+#~ "at <a href=\"http://www.jfarthing.com/donate\">donere via PayPal</a>!"
+
+#~ msgid ""
+#~ "<strong>WARNING</strong>: The function <em>wp_new_user_notification</em> "
+#~ "has already been overridden by another plugin. "
+#~ msgstr ""
+#~ "<strong>ADVARSEL</strong>: Funktionen <em>wp_new_user_notification</em> "
+#~ "er allerede overridden af et andet plugin. "
+
+#~ msgid "Some features of <em>Theme My Login</em> may not function properly."
+#~ msgstr ""
+#~ "Nogle funktioner i <em>Theme My Login</em> fungerer måske ikke ordentligt."
+
+#~ msgid ""
+#~ "<strong>WARNING</strong>: The function "
+#~ "<em>wp_password_change_notification</em> has already been overridden by "
+#~ "another plugin. "
+#~ msgstr ""
+#~ "<strong>ADVARSEL</strong>: Funktionen "
+#~ "<em>wp_password_change_notification</em> er allerede overridden af et "
+#~ "andet plugin. "
+
+#~ msgid ""
+#~ "Enter the name you wish for e-mails to be sent from. If left blank, the "
+#~ "default will be used."
+#~ msgstr ""
+#~ "Indtast navnet, du ønsker, dine e-mails skal have som afsender. "
+#~ "Standardnavnet bruges, hvis du intet indtaster."
+
+#~ msgid ""
+#~ "Enter the e-mail address you wish for e-mails to be sent from. If left "
+#~ "blank, the default will be used."
+#~ msgstr ""
+#~ "Indtast e-mail-adressen, du ønsker, dine e-mails skal have som afsender. "
+#~ "Standardnavnet bruges, hvis du intet indtaster."
+
+#~ msgid ""
+#~ "If you are going to use HTML markup in your e-mail messages, select \"HTML"
+#~ "\" for this setting. Otherwise, select \"Plain Text\"."
+#~ msgstr ""
+#~ "Hvis du vil bruge HTML i dine e-mails, skal du vælge \"HTML\" her. Ellers "
+#~ "skal du vælge \"Kun tekst\"."
+
+#~ msgid ""
+#~ "Check this option if you do not wish to receive notification everytime "
+#~ "someone registers for your blog."
+#~ msgstr ""
+#~ "Kryds af her, hvis du ikke ønsker at modtage en mail, hver gang en "
+#~ "besøgende registrerer sig på din blog."
+
+#~ msgid ""
+#~ "Check this option if you do not wish to receive notification everytime "
+#~ "someone recovers their password for your blog."
+#~ msgstr ""
+#~ "Kryds af her, hvis du ikke ønsker en e-mail, når en bruger får en ny "
+#~ "adgangskode til din blog."

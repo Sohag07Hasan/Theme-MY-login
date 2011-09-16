@@ -1,0 +1,1271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2010-10-03 19:07+0000\n"
+"PO-Revision-Date: 2010-12-10 13:22+0200\n"
+"Last-Translator: Nicolas Nicolov <nicolov@architect.bg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ theme-my-login
+#. #-#-#-#-#  plugin.pot (Theme My Login 6.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-theme-my-login-admin.php:51
+#: admin/class-theme-my-login-admin.php:52
+#: includes/class-theme-my-login-widget.php:24
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:88
+#, php-format
+msgid "ERROR: The module \"%1$s\" could not be activated (%2$s)."
+msgstr "ГРЕШКА: Модул  \"%1$s\" не може да бъде активиран (%2$s)"
+
+#: admin/class-theme-my-login-admin.php:108
+msgid "NOTICE:"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:109
+#, php-format
+msgid "Now that you have activated Theme My Login, please <a href=\"%s\">visit the settings page</a> and familiarize yourself with all of the available options."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:111
+msgid "Take me to the settings page"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:124
+msgid "You can now login with your e-mail address or username! Try it out!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:125
+msgid "Theme My Login now utilizes a module system. Modules are similar to WordPress plugins. Each module extends the default functionality of Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Click here</a> to get started with modules now."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:126
+msgid "Theme My Login now allows custom forms. You can create your own form template(s) by copying the default version(s) from \"theme-my-login/templates\" to your current theme directory. Try it out!"
+msgstr ""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:127
+msgid "You can maintain your stylesheet changes between upgrades. Just simply copy the file \"theme-my-login/theme-my-login.css\" to your current theme directory and edit it as you please!"
+msgstr "Можете да съхраните промените в стиловете между обновяванията. Само запишете файла \"theme-my-login/theme-my-login.css\"  в текущата папка на темата и я променяйте както желаете."
+
+#: admin/class-theme-my-login-admin.php:128
+msgid "Theme My Login provides a shortcode that you can use within your posts with multiple parameters to customize the form. Visit the <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> for usage instructions."
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:129
+msgid "Theme My Login is <em>FREE</em> but Jeff sure appreciates <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donations</a>!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:130
+msgid "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+msgstr ""
+
+#: admin/class-theme-my-login-admin.php:134
+msgid "Did You Know?"
+msgstr ""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:175
+msgid "General"
+msgstr "Общи"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:176
+msgid "Basic"
+msgstr "Основни"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:177
+#: admin/class-theme-my-login-admin.php:305
+msgid "Modules"
+msgstr "Модули"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:184
+msgid "Theme My Login Settings"
+msgstr "Настройки на Theme My Login"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:190
+#: admin/class-theme-my-login-admin.php:247
+msgid "Save Changes"
+msgstr "Запазване на промените"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:266
+msgid "Page ID"
+msgstr "Номер на страница"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:269
+msgid "This should be the ID of the WordPress page that includes the [theme-my-login] shortcode. By default, this page is titled \"Login\"."
+msgstr "Това е номера на WordPress страницата, която съдържа краткия код [theme-my-login]. По подразбиране тази страница се казва \"Login\"."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:273
+msgid "Pagelist"
+msgstr "Списък на страници"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:276
+msgid "Show Page In Pagelist"
+msgstr "Покажи страницата в списъка"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:277
+msgid "Enable this setting to add login/logout links to the pagelist generated by functions like wp_list_pages() and wp_page_menu()."
+msgstr "Включете този параметър, за да добавите връзки за Вход/Изход в списъка от страници генериран от функциите wp_list_pages () и wp_page_menu ()."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:281
+msgid "Stylesheet"
+msgstr "Стилове"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:284
+msgid "Enable \"theme-my-login.css\""
+msgstr "Разрешаване на \"theme-my-login.css\""
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:285
+msgid "In order to keep changes between upgrades, you can store your customized \"theme-my-login.css\" in your current theme directory."
+msgstr "За да съхраните промените в стиловете между обновяванията запишете файла \"theme-my-login.css\"  в текущата папка на темата."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:309
+#, php-format
+msgid "Enable %s"
+msgstr "Разрешаване на %s"
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:311
+msgid "No modules found."
+msgstr "Ненамерени модули."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:422
+msgid "One of the modules is invalid."
+msgstr "Някй модул е невалиден."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:475
+msgid "Invalid module path."
+msgstr "Погрешен път към модула."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:477
+msgid "Module file does not exist."
+msgstr "Файлът на модула не съществува."
+
+# @ theme-my-login
+#: admin/class-theme-my-login-admin.php:481
+msgid "The module does not have a valid header."
+msgstr "Заглавната част на модула е невалидна."
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:140
+#, php-format
+msgid "Welcome, %s"
+msgstr "Добре дошли %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:144
+#: includes/class-theme-my-login-widget.php:86
+#: templates/register-form.php:25
+msgid "Register"
+msgstr "Регистрация"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:150
+#: includes/class-theme-my-login-widget.php:86
+msgid "Lost Password"
+msgstr "Забравена парола"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:154
+#: includes/class-theme-my-login.php:393
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr "Вход"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:316
+#: modules/custom-user-links/custom-user-links.php:95
+msgid "Dashboard"
+msgstr "Табло"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:317
+#: modules/custom-user-links/custom-user-links.php:96
+msgid "Profile"
+msgstr "Профил"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:334
+#: modules/custom-redirection/custom-redirection.php:187
+msgid "Log out"
+msgstr "Изход"
+
+#: includes/class-theme-my-login-template.php:363
+msgid "Register For This Site"
+msgstr ""
+
+# @ theme-my-login
+#: includes/class-theme-my-login-template.php:365
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Моля въведете потребителско име или e-mail адрес. Ще получите нова парола по e-mail."
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:23
+msgid "A login form for your blog."
+msgstr "Форма за достъп до Вашия блог"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:86
+msgid "Login"
+msgstr "Вход"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:87
+msgid "Default Action"
+msgstr "По подразбиране"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:94
+msgid "Show When Logged In"
+msgstr "Покажи след влизане в системата"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:96
+msgid "Show Title"
+msgstr "Покажи заглавието"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:98
+msgid "Show Login Link"
+msgstr "Покажи връзката за вход"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:100
+msgid "Show Register Link"
+msgstr "Покажи връзката за регистрация"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:102
+msgid "Show Lost Password Link"
+msgstr "Покажи връзка за загубена парола?"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:104
+msgid "Show Gravatar"
+msgstr "Покажи Gravatar"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:105
+msgid "Gravatar Size"
+msgstr "размер на Gravatar"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:107
+msgid "Allow Registration"
+msgstr "Разреши регистрацията"
+
+# @ theme-my-login
+#: includes/class-theme-my-login-widget.php:109
+msgid "Allow Password Recovery"
+msgstr "Разреши възстановяване на паролата"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:217
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Този ключ изглежда невалиден."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:325
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"http://www.google.com/cookies.html\">enable cookies</a> to use WordPress."
+msgstr "<strong>ГРЕШКА:</strong> Бисквитките за блокирани или не се поддържат от Вашия браузер. За да използвате WordPress трябва да <a href='http://www.google.com/cookies.html'>разрешите бисквитките</a>."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:329
+msgid "You are now logged out."
+msgstr "Излязохте от системата."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:331
+msgid "User registration is currently not allowed."
+msgstr "Регистрацията не е разрешена в момента."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:333
+msgid "Check your e-mail for the confirmation link."
+msgstr "Проверете своя e-mail за връзка за потвърждение."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:335
+msgid "Check your e-mail for your new password."
+msgstr "Проверете своя e-mail за нова парола."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:337
+msgid "Registration complete. Please check your e-mail."
+msgstr "Регистрацията завърши. Моля проверете електронната си поща."
+
+#: includes/class-theme-my-login.php:339
+msgid "Your session has expired. Please log-in again."
+msgstr ""
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:393
+msgid "Log Out"
+msgstr "Изход"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:880
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>ГРЕШКА:</strong> Моля въведете потребителско име или e-mail адрес."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:885
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>ГРЕШКА:</strong> Няма регистриран потребител с този e-mail адрес."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:897
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ГРЕШКА:</strong>Невалидно потребителско име или e-mail адрес."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:911
+msgid "Password reset is not allowed for this user"
+msgstr "Паролата на този потребител не може да бъде променена."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:924
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Някой е поискал смяна на паролата за следния сайт и потребител."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:926
+#: includes/class-theme-my-login.php:983
+#: modules/custom-email/custom-email.php:474
+#: modules/custom-email/custom-email.php:491
+#: modules/custom-passwords/custom-passwords.php:336
+#: modules/user-moderation/admin/user-moderation-admin.php:165
+#: modules/user-moderation/user-moderation.php:370
+#, php-format
+msgid "Username: %s"
+msgstr "Потребителско име: %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:927
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "За да промените паролата си посетете следния адрес или просто игнорирайте този e-mail и нищо няма да се случи."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:938
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Промяна на парола"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "The e-mail could not be sent."
+msgstr "Писмото не може да бъде изпратено."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Возможна причина: Изключена е функцията mail() ..."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:965
+#: includes/class-theme-my-login.php:968
+#: includes/class-theme-my-login.php:972
+#: modules/custom-passwords/custom-passwords.php:290
+#: modules/custom-passwords/custom-passwords.php:294
+#: modules/custom-passwords/custom-passwords.php:299
+#: modules/user-moderation/user-moderation.php:248
+#: modules/user-moderation/user-moderation.php:251
+#: modules/user-moderation/user-moderation.php:256
+msgid "Invalid key"
+msgstr "Невалиден ключ"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:984
+#: modules/custom-email/custom-email.php:492
+#: modules/custom-passwords/custom-passwords.php:337
+#: modules/user-moderation/admin/user-moderation-admin.php:166
+#, php-format
+msgid "Password: %s"
+msgstr "Парола: %s"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:995
+#: modules/custom-passwords/custom-passwords.php:345
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Вашата нова парола"
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1026
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ГРЕШКА:</strong> Моля въведете потребителско име."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1028
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>ГРЕШКА:</strong> Невалидно потребителско име - съдържа недопустими символи. Моля въведете валидно потребителско име."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1031
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>ГРЕШКА:</strong> Това потребителско име е заето, моля изберете друго."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1036
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ГРЕШКА:</strong> Моля въведете e-mail адрес."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1038
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ГРЕШКА:</strong> Неверен e-mail адрес."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1041
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ГРЕШКА:</strong> Този e-mail адрес е вече регистриран, моля изберете друг."
+
+# @ theme-my-login
+#: includes/class-theme-my-login.php:1054
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>ГРЕШКА:</strong> Неуспешна регистрация! Моля свържете се с <a href=\"mailto:%s\">админитстратора</a> !"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:43
+#: modules/custom-email/admin/custom-email-admin.php:170
+#: modules/user-moderation/admin/user-moderation-admin.php:333
+msgid "User Notification"
+msgstr "Уведомяване на потребител"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:46
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "Този e-mail ще бъде изпратен на новия потребител след регистрацията."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:47
+#: modules/custom-email/admin/custom-email-admin.php:174
+#: modules/user-moderation/admin/user-moderation-admin.php:337
+msgid "Please be sure to include the variable %user_pass% if using default passwords or else the user will not know their password!"
+msgstr "Моля не забравяйте да включите променливата %user_pass% в текста на писмото, иначе потребителя няма да получи паролата си!"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:48
+#: modules/custom-email/admin/custom-email-admin.php:78
+#: modules/custom-email/admin/custom-email-admin.php:128
+#: modules/custom-email/admin/custom-email-admin.php:175
+#: modules/custom-email/admin/custom-email-admin.php:205
+#: modules/user-moderation/admin/user-moderation-admin.php:287
+#: modules/user-moderation/admin/user-moderation-admin.php:338
+#: modules/user-moderation/admin/user-moderation-admin.php:368
+#: modules/user-moderation/admin/user-moderation-admin.php:421
+msgid "If any field is left empty, the default will be used instead."
+msgstr "Ако дадено поле остане празно ще се използва стойността по подразбиране."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:51
+#: modules/custom-email/admin/custom-email-admin.php:84
+#: modules/custom-email/admin/custom-email-admin.php:131
+#: modules/custom-email/admin/custom-email-admin.php:178
+#: modules/custom-email/admin/custom-email-admin.php:211
+#: modules/user-moderation/admin/user-moderation-admin.php:290
+#: modules/user-moderation/admin/user-moderation-admin.php:341
+#: modules/user-moderation/admin/user-moderation-admin.php:374
+#: modules/user-moderation/admin/user-moderation-admin.php:424
+msgid "From Name"
+msgstr "Име на подателя"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:54
+#: modules/custom-email/admin/custom-email-admin.php:87
+#: modules/custom-email/admin/custom-email-admin.php:134
+#: modules/custom-email/admin/custom-email-admin.php:181
+#: modules/custom-email/admin/custom-email-admin.php:214
+#: modules/user-moderation/admin/user-moderation-admin.php:293
+#: modules/user-moderation/admin/user-moderation-admin.php:344
+#: modules/user-moderation/admin/user-moderation-admin.php:377
+#: modules/user-moderation/admin/user-moderation-admin.php:427
+msgid "From E-mail"
+msgstr "E-mail на подателя"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:57
+#: modules/custom-email/admin/custom-email-admin.php:90
+#: modules/custom-email/admin/custom-email-admin.php:137
+#: modules/custom-email/admin/custom-email-admin.php:184
+#: modules/custom-email/admin/custom-email-admin.php:217
+#: modules/user-moderation/admin/user-moderation-admin.php:296
+#: modules/user-moderation/admin/user-moderation-admin.php:347
+#: modules/user-moderation/admin/user-moderation-admin.php:380
+#: modules/user-moderation/admin/user-moderation-admin.php:430
+msgid "E-mail Format"
+msgstr "Формат на e-mail"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:63
+#: modules/custom-email/admin/custom-email-admin.php:96
+#: modules/custom-email/admin/custom-email-admin.php:143
+#: modules/custom-email/admin/custom-email-admin.php:190
+#: modules/custom-email/admin/custom-email-admin.php:223
+#: modules/user-moderation/admin/user-moderation-admin.php:302
+#: modules/user-moderation/admin/user-moderation-admin.php:353
+#: modules/user-moderation/admin/user-moderation-admin.php:386
+#: modules/user-moderation/admin/user-moderation-admin.php:436
+msgid "Subject"
+msgstr "Тема"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:66
+#: modules/custom-email/admin/custom-email-admin.php:99
+#: modules/custom-email/admin/custom-email-admin.php:146
+#: modules/custom-email/admin/custom-email-admin.php:193
+#: modules/custom-email/admin/custom-email-admin.php:226
+#: modules/user-moderation/admin/user-moderation-admin.php:305
+#: modules/user-moderation/admin/user-moderation-admin.php:356
+#: modules/user-moderation/admin/user-moderation-admin.php:389
+#: modules/user-moderation/admin/user-moderation-admin.php:439
+msgid "Message"
+msgstr "Съобщение"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:69
+#: modules/custom-email/admin/custom-email-admin.php:102
+#: modules/custom-email/admin/custom-email-admin.php:149
+#: modules/custom-email/admin/custom-email-admin.php:196
+#: modules/custom-email/admin/custom-email-admin.php:229
+#: modules/user-moderation/admin/user-moderation-admin.php:308
+#: modules/user-moderation/admin/user-moderation-admin.php:359
+#: modules/user-moderation/admin/user-moderation-admin.php:392
+#: modules/user-moderation/admin/user-moderation-admin.php:442
+msgid "Available Variables"
+msgstr "Достъпни променливи"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:74
+#: modules/custom-email/admin/custom-email-admin.php:201
+#: modules/user-moderation/admin/user-moderation-admin.php:364
+msgid "Admin Notification"
+msgstr "Уведомяване на администратора"
+
+#: modules/custom-email/admin/custom-email-admin.php:77
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon new user registration."
+msgstr ""
+
+#: modules/custom-email/admin/custom-email-admin.php:81
+#: modules/custom-email/admin/custom-email-admin.php:208
+#: modules/user-moderation/admin/user-moderation-admin.php:371
+msgid "To"
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:126
+msgid "This e-mail will be sent to a user when they attempt to recover their password."
+msgstr "Този e-mail ще бъде изпратен на потребител, който се опитва да възстанови паролата си."
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:127
+msgid "Please be sure to include the variable %reseturl% or else the user will not be able to recover their password!"
+msgstr "Моля не забравяйте да включите променливата %reseturl%, иначе потребителя няма да може да възстанови паролата си!"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:173
+msgid "This e-mail will be sent to a user upon successful password recovery."
+msgstr "Този e-mail ще бъде изпратен на потребител, който успешно е възстановил паролата си."
+
+#: modules/custom-email/admin/custom-email-admin.php:204
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon user password change."
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:231
+#: modules/user-moderation/admin/user-moderation-admin.php:394
+msgid "Disable Admin Notification"
+msgstr "Изключване уведомяването на администратора"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:251
+#: templates/profile-form.php:86
+#: templates/register-form.php:16
+msgid "E-mail"
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:252
+msgid "New User"
+msgstr "Нов потребител"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:253
+msgid "Retrieve Password"
+msgstr "Възстановяване на парола"
+
+# @ theme-my-login
+#: modules/custom-email/admin/custom-email-admin.php:254
+msgid "Reset Password"
+msgstr "Промяна на парола"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:473
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Регистрация на нов потребител в сайта %s:"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:475
+#: modules/user-moderation/user-moderation.php:371
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:477
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Регистрация на нов потребител"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:495
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Вашето потребителско име и парола"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:525
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Загубена/променена парола"
+
+# @ theme-my-login
+#: modules/custom-email/custom-email.php:526
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Загубена и променена парола за потребител: %s"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:29
+msgid "Password:"
+msgstr "Парола:"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:31
+#: templates/resetpass-form.php:16
+msgid "Confirm Password:"
+msgstr "Подтвърдете паролата:"
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:54
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>ГРЕШКА:</strong> Моля въведете парола."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:57
+msgid "<strong>ERROR</strong>: Your passwords do not match."
+msgstr "<strong>ГРЕШКА:</strong> Паролата не съвпада."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:60
+msgid "<strong>ERROR</strong>: Your password must be at least 6 characters in length."
+msgstr "<strong>ГРЕШКА:</strong> Паролата трябва да съдържа поне 6 символа."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:188
+msgid "Please enter your username or e-mail address. You will receive an e-mail with a link to reset your password."
+msgstr "Въведете потребителско име или e-mail адрес. Ще получите e-mail с връзка за промяна на паролата."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:191
+msgid "Please enter a new password."
+msgstr "Моля въведете нова парола."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:224
+msgid "Registration complete. You may now log in."
+msgstr "Регистрацията завърши. Сега можете да влезете в системата."
+
+# @ theme-my-login
+#: modules/custom-passwords/custom-passwords.php:227
+msgid "Your password has been saved. You may now log in."
+msgstr "Вашата парола е записана. Сега можете да влезете в системата."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:148
+msgid "Redirection"
+msgstr "Перенасочване"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:175
+msgid "Log in"
+msgstr "Вход"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:177
+#: modules/custom-redirection/custom-redirection.php:189
+msgid "Default"
+msgstr "По подразбиране"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:178
+msgid "Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "Включете тази опция за да пратите потребителя в неговия WordPress профил."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:179
+#: modules/custom-redirection/custom-redirection.php:191
+msgid "Referer"
+msgstr "Поръчител"
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:180
+msgid "Check this option to send the user back to the page they were visiting before logging in."
+msgstr "Включете тази опция за да върнете потребителя на страницата, кято е посетил преди влизането в системата."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:183
+#: modules/custom-redirection/custom-redirection.php:195
+msgid "Check this option to send the user to a custom location, specified by the textbox above."
+msgstr "Включете тази опция за да пратите потребителя на място, указано в долното поле."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:190
+msgid "Check this option to send the user to the log in page, displaying a message that they have successfully logged out."
+msgstr "Включете тази опция за да изпратите потребителя на страницата за вход, показвайки съобщение за успешно излизане от системата."
+
+# @ theme-my-login
+#: modules/custom-redirection/custom-redirection.php:192
+msgid "Check this option to send the user back to the page they were visiting before logging out. (Note: If the previous page being visited was an admin page, this can have unexpected results.)"
+msgstr "Включете тази опция за да върнете потребителя на страницата, на която е бил преди излизането от системата. (Забележка: Ако предишната страница е била страницата на администратора, резултатът е непредвидим.)"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:139
+msgid "User Links"
+msgstr "Потребителски връзки"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:229
+#: modules/custom-user-links/admin/custom-user-links-admin.php:252
+#: modules/custom-user-links/admin/custom-user-links-admin.php:297
+msgid "Title"
+msgstr "Заглавие"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:230
+#: modules/custom-user-links/admin/custom-user-links-admin.php:253
+#: modules/custom-user-links/admin/custom-user-links-admin.php:301
+msgid "URL"
+msgstr ""
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:247
+msgid "Add New link:"
+msgstr "Добавяне на нова връзка:"
+
+# @ theme-my-login
+#: modules/custom-user-links/admin/custom-user-links-admin.php:263
+msgid "Add link"
+msgstr "Добавяне на връзка"
+
+# @ default
+#: modules/custom-user-links/admin/custom-user-links-admin.php:303
+msgid "Delete"
+msgstr "Изтриване"
+
+# @ default
+#: modules/custom-user-links/admin/custom-user-links-admin.php:304
+msgid "Update"
+msgstr "Обновяване"
+
+# @ theme-my-login
+#: modules/security/admin/security-admin.php:35
+#: modules/security/admin/security-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:50
+msgid "You can&#8217;t edit that user."
+msgstr "Не можете да редактирате този потребител."
+
+#: modules/security/admin/security-admin.php:70
+msgid "User locked."
+msgstr ""
+
+#: modules/security/admin/security-admin.php:72
+msgid "User unlocked."
+msgstr ""
+
+#: modules/security/admin/security-admin.php:95
+msgid "Unlock"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:97
+msgid "Lock"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:116
+msgid "Security"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:136
+msgid "Login Attempts"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:141
+msgid "minute(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:142
+msgid "hour(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:143
+msgid "day(s)"
+msgstr ""
+
+#: modules/security/admin/security-admin.php:166
+#, php-format
+msgid "After %1$s failed login attempts within %2$s %3$s, lockout the account for %4$s %5$s."
+msgstr ""
+
+#: modules/security/security.php:43
+#: modules/security/security.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: This account has been locked because of too many failed login attempts. You may try again in %s."
+msgstr ""
+
+# @ theme-my-login
+#: modules/security/security.php:45
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>ГРЕШКА:</strong> Този потребител е блокиран."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:77
+#: templates/profile-form.php:125
+msgid "Strength indicator"
+msgstr "Индикатор на силата"
+
+#: modules/themed-profiles/themed-profiles.php:78
+msgid "Very weak"
+msgstr ""
+
+#: modules/themed-profiles/themed-profiles.php:79
+msgid "Weak"
+msgstr ""
+
+#. translators: password strength
+#: modules/themed-profiles/themed-profiles.php:81
+msgctxt "password strength"
+msgid "Medium"
+msgstr ""
+
+#: modules/themed-profiles/themed-profiles.php:82
+msgid "Strong"
+msgstr ""
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:92
+msgid "You do not have permission to edit this user."
+msgstr "Нямате права за редактиране на този потребител."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:108
+msgid "Profile updated."
+msgstr "Профилът е обновен."
+
+# @ theme-my-login
+#: modules/themed-profiles/themed-profiles.php:178
+msgid "Your Profile"
+msgstr "Вашият профил"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:83
+msgid "User approved."
+msgstr "Потребителят е одобрен"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:85
+msgid "Activation sent."
+msgstr "Активацията е изпратена."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:111
+msgid "Resend Activation"
+msgstr "Изпращане наново на активацията"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:116
+msgid "Approve"
+msgstr "Утвърждаване"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:150
+#: modules/user-moderation/user-moderation.php:275
+msgid "Same as when you signed up."
+msgstr "Все едно, че сте регистрирани."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:164
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "Вашият достъп до %s е потвърден."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:169
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] Одобрена регистрация"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:203
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "Отказан Ви е достъп до %s"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:204
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] Отказана регистраця"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:226
+msgid "Moderation"
+msgstr "Модериране"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:228
+msgid "User Activation"
+msgstr "Активация на потребител"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:229
+msgid "User Approval"
+msgstr "Одобрение на потребител"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:230
+msgid "User Denial"
+msgstr "Отхвърляне на потребител"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:249
+msgid "User Moderation"
+msgstr "Модерация на потребител"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:252
+msgid "None"
+msgstr "Няма"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:253
+msgid "Check this option to require no moderation."
+msgstr "Включете тази опция за да отмените модерирането."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:255
+msgid "E-mail Confirmation"
+msgstr "Потвърждение по e-mail"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:256
+msgid "Check this option to require new users to confirm their e-mail address before they may log in."
+msgstr "Включете тази опция за да се изисква от новите потребители потвърждение на e-mail адрес преди да могат да влизат.."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:258
+msgid "Admin Approval"
+msgstr "Одобрение от администратора"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:259
+msgid "Check this option to require new users to be approved by an administrator before they may log in."
+msgstr "Включете тази опция за да се изисква одобрение на новите потребители от администратора, преди да могат да влизат."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:285
+msgid "This e-mail will be sent to a new user upon registration when \"E-mail Confirmation\" is checked for \"User Moderation\"."
+msgstr "Този e-mail ще бъде изпратен на потребител, който трябва да потвърди регистрацията си по e-mail."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:286
+msgid "Please be sure to include the variable %activateurl% or else the user will not be able to activate their account!"
+msgstr "Не забравяйте да включите променливата %activateurl%, иначе потребителят няма да може да активира профила си!"
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:336
+msgid "This e-mail will be sent to a new user upon admin approval when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Този e-mail ще бъде изпратен на потребител след одобрение от администратора.Это письмо будет выслано новому пользователю после одобрения администратора, когда \"Одобрение администратором\" установлено на \"Модерации пользователя\"."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:367
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below upon user registration when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Този e-mail ще бъде изпратен на посочените по-долу адреси (разделени със запетаи ако са повече от един) след одобрение на регистрацията от администратора."
+
+# @ theme-my-login
+#: modules/user-moderation/admin/user-moderation-admin.php:420
+msgid "This e-mail will be sent to a user who is deleted/denied when \"Admin Approval\" is checked for \"User Moderation\" and the user's role is \"Pending\"."
+msgstr "Този e-mail ще бъде изпратен на потребител, който е не е одобрен или е отстранен след режим \"Очакване\"."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:171
+#, php-format
+msgid "<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a href=\"%s\">Resend activation</a>?"
+msgstr "<strong>ГРЕШКА:</strong> Не сте потвърдили вашият e-mail адрес.<a href=\"%s\">Ново пращане на активация</a>?"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:174
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>ГРЕШКА:</strong> Вашата регистрация още не е одобрена."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:334
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Активирайте своя профил"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:335
+#, php-format
+msgid "Thanks for registering at %s! To complete the activation of your account please click the following link: "
+msgstr "Благодарим за регистрацията в %s! За завършване на регистрацията на Вашия профил кликнете върху следната връзка:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:367
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] Нов потребител очаква одобрение"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:369
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "Нов потребител изисква одобрение във Вашия блог %s:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:372
+msgid "To approve or deny this user:"
+msgstr "За одобряване или отхвърляне на този потребител:"
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:393
+msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
+msgstr "Регистрацията Ви протече успешно, но трябва да потвърдите e-mail адреса си преди да влезете. Проверете пощата си и кликнете върху предвидената връзка."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:395
+msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
+msgstr "Регистрацията Ви протече успешно, но трябва да бъдете одобрени от администратора за да влезете. Ще бъдете уведомени по e-mail след разглеждане на заявката Ви."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:398
+msgid "Your account has been activated. You may now log in."
+msgstr "Вашият профил е активиран. Можете да влезете в системата."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:400
+msgid "Your account has been activated. Please check your e-mail for your password."
+msgstr "Вашият профил е активиран. Проверете Вашият e-mail за парола."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:402
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>ГРЕШКА:</strong> Този ключ е невалиден."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:405
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>ГРЕШКА:</strong> Не може да бъде изпратен e-mail за активация."
+
+# @ theme-my-login
+#: modules/user-moderation/user-moderation.php:407
+msgid "The activation e-mail has been sent to the e-mail address with which you registered. Please check your email and click on the link provided."
+msgstr "Писмото за активация бе изпратено на регистрирания от Вас e-mail адрес. Моля проверете си пощата и кликнете върху връзката за активация."
+
+# @ theme-my-login
+#: templates/login-form.php:12
+#: templates/profile-form.php:34
+#: templates/register-form.php:12
+msgid "Username"
+msgstr "Потребителско име"
+
+# @ theme-my-login
+#: templates/login-form.php:16
+msgid "Password"
+msgstr "Парола"
+
+# @ theme-my-login
+#: templates/login-form.php:25
+msgid "Remember Me"
+msgstr "Запомни ме"
+
+# @ theme-my-login
+#: templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "Потребителско име или e-mail адрес:"
+
+# @ theme-my-login
+#: templates/lostpassword-form.php:20
+msgid "Get New Password"
+msgstr "Получаване на нова парола"
+
+# @ theme-my-login
+#: templates/profile-form.php:22
+msgid "Personal Options"
+msgstr "Лични настройки"
+
+# @ theme-my-login
+#: templates/profile-form.php:30
+msgid "Name"
+msgstr "Име"
+
+# @ theme-my-login
+#: templates/profile-form.php:35
+msgid "Your username cannot be changed."
+msgstr "Потребителското име не може да се променя."
+
+# @ theme-my-login
+#: templates/profile-form.php:39
+msgid "First name"
+msgstr "Име"
+
+# @ theme-my-login
+#: templates/profile-form.php:44
+msgid "Last name"
+msgstr "Фамилия"
+
+# @ theme-my-login
+#: templates/profile-form.php:49
+msgid "Nickname"
+msgstr "Прякор"
+
+# @ theme-my-login
+#: templates/profile-form.php:49
+#: templates/profile-form.php:86
+msgid "(required)"
+msgstr "(задължително)"
+
+# @ theme-my-login
+#: templates/profile-form.php:54
+msgid "Display name publicly as"
+msgstr "Публично име"
+
+# @ theme-my-login
+#: templates/profile-form.php:82
+msgid "Contact Info"
+msgstr "Контакти"
+
+# @ theme-my-login
+#: templates/profile-form.php:91
+msgid "Website"
+msgstr "Уеб сайт"
+
+# @ theme-my-login
+#: templates/profile-form.php:108
+msgid "About Yourself"
+msgstr "За себе си"
+
+# @ theme-my-login
+#: templates/profile-form.php:112
+msgid "Biographical Info"
+msgstr "Биографична информация"
+
+# @ theme-my-login
+#: templates/profile-form.php:114
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Споделете кратка биографична информация за да попълните профила си. Тя може да бъде показвана публично."
+
+# @ theme-my-login
+#: templates/profile-form.php:122
+msgid "New Password"
+msgstr "Нова парола"
+
+# @ theme-my-login
+#: templates/profile-form.php:123
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Ако искате да промените паролата си въведете нова. Иначе оставете полето празно."
+
+# @ theme-my-login
+#: templates/profile-form.php:124
+msgid "Type your new password again."
+msgstr "Въведете паролата отново."
+
+# @ theme-my-login
+#: templates/profile-form.php:126
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Подсказка: паролата трябва да съдържа не по-малко от 7 символа. За да я направите по-силна използвайте малки и главни букви, цифри и символи, например ! \" ? $ % ^ &amp; )."
+
+# @ theme-my-login
+#: templates/profile-form.php:140
+msgid "Additional Capabilities"
+msgstr "Дополнителни възможности"
+
+# @ default
+#: templates/profile-form.php:159
+msgid "Update Profile"
+msgstr "Обновете профила си"
+
+# @ theme-my-login
+#: templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "Паролата ще бъде изпратена на Вашия e-mail."
+
+# @ theme-my-login
+#: templates/resetpass-form.php:12
+msgid "New Password:"
+msgstr "Нова парола:"
+
+# @ theme-my-login
+#: templates/resetpass-form.php:24
+msgid "Change Password"
+msgstr "Променете паролата"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Themes the WordPress login, registration and forgot password pages according to your theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jeff Farthing"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.jfarthing.com"
+msgstr ""
+

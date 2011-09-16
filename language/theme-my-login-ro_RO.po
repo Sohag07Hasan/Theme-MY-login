@@ -1,0 +1,1081 @@
+# Translation of the WordPress plugin Theme My Login 6.0 by Jeff Farthing.
+# Copyright (C) 2010 Jeff Farthing
+# This file is distributed under the same license as the Theme My Login package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2010-10-03 19:07+0000\n"
+"PO-Revision-Date: 2011-02-15 22:49+0200\n"
+"Last-Translator: Șerban Adrian <necrogull@yahoo.com>\n"
+"Language-Team: necrogull <necrogull@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. #-#-#-#-#  plugin.pot (Theme My Login 6.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-theme-my-login-admin.php:51
+#: admin/class-theme-my-login-admin.php:52
+#: includes/class-theme-my-login-widget.php:24
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: admin/class-theme-my-login-admin.php:88
+#, php-format
+msgid "ERROR: The module \"%1$s\" could not be activated (%2$s)."
+msgstr "EROARE: Modulul \"%1$s\" nu s-a putut activa (%2$s)."
+
+#: admin/class-theme-my-login-admin.php:108
+msgid "NOTICE:"
+msgstr "NOTIFICARE:"
+
+#: admin/class-theme-my-login-admin.php:109
+#, php-format
+msgid "Now that you have activated Theme My Login, please <a href=\"%s\">visit the settings page</a> and familiarize yourself with all of the available options."
+msgstr "Acum ca ați activat Theme My Login, vă rugăm <a href=\"%s\">vizitați pagina de setări</a> să vă familiarizaţi cu toate opţiunile disponibile."
+
+#: admin/class-theme-my-login-admin.php:111
+msgid "Take me to the settings page"
+msgstr "Du-mă la pagina de setări"
+
+#: admin/class-theme-my-login-admin.php:124
+msgid "You can now login with your e-mail address or username! Try it out!"
+msgstr "Acum va puteti autentifica cu adresa de e-mail sau cu numele de utilizator! Încercaţi-l!"
+
+#: admin/class-theme-my-login-admin.php:125
+msgid "Theme My Login now utilizes a module system. Modules are similar to WordPress plugins. Each module extends the default functionality of Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Click here</a> to get started with modules now."
+msgstr "Tema mea Login utilizeaza acum un sistem de modul. Modulele sunt similare cu plugin-urile WordPress. Fiecare modul extinde funcţionalitatea Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\"> Apăsați aici</a> pentru a folosi modulul acum."
+
+#: admin/class-theme-my-login-admin.php:126
+msgid "Theme My Login now allows custom forms. You can create your own form template(s) by copying the default version(s) from \"theme-my-login/templates\" to your current theme directory. Try it out!"
+msgstr "Theme My Login permite acum forme personalizate. Puteţi crea şablone de formular prin copierea versiunii implicite de la \"theme-my-login/templates\" în directorul curent al temei. Încercaţi-l!"
+
+#: admin/class-theme-my-login-admin.php:127
+msgid "You can maintain your stylesheet changes between upgrades. Just simply copy the file \"theme-my-login/theme-my-login.css\" to your current theme directory and edit it as you please!"
+msgstr "Puteţi menţine modificările stylesheet-ului între upgrade-uri. Doar copiați fişierul \"theme-my-login/theme-my-login.css\" în directorul temei curente şi editaţi-l!"
+
+#: admin/class-theme-my-login-admin.php:128
+msgid "Theme My Login provides a shortcode that you can use within your posts with multiple parameters to customize the form. Visit the <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> for usage instructions."
+msgstr "Theme My Login oferă o scurtătură pe care o puteţi utiliza în post-urile dvs. cu mai multi parametrii pentru a personaliza forma. Vizitați <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> pentru instrucțiunile de folosire."
+
+#: admin/class-theme-my-login-admin.php:129
+msgid "Theme My Login is <em>FREE</em> but Jeff sure appreciates <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donations</a>!"
+msgstr "Theme My Login este <em>GRATIS</em> dar Jeff apreciază daca <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donați</a>!"
+
+#: admin/class-theme-my-login-admin.php:130
+msgid "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+msgstr "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+
+#: admin/class-theme-my-login-admin.php:134
+msgid "Did You Know?"
+msgstr "Ştiaţi că?"
+
+#: admin/class-theme-my-login-admin.php:175
+msgid "General"
+msgstr "General"
+
+#: admin/class-theme-my-login-admin.php:176
+msgid "Basic"
+msgstr "De bază"
+
+#: admin/class-theme-my-login-admin.php:177
+#: admin/class-theme-my-login-admin.php:305
+msgid "Modules"
+msgstr "Module"
+
+#: admin/class-theme-my-login-admin.php:184
+msgid "Theme My Login Settings"
+msgstr "Setări Theme My Login"
+
+#: admin/class-theme-my-login-admin.php:190
+#: admin/class-theme-my-login-admin.php:247
+msgid "Save Changes"
+msgstr "Salvaţi modificări"
+
+#: admin/class-theme-my-login-admin.php:266
+msgid "Page ID"
+msgstr "ID-ul paginii"
+
+#: admin/class-theme-my-login-admin.php:269
+msgid "This should be the ID of the WordPress page that includes the [theme-my-login] shortcode. By default, this page is titled \"Login\"."
+msgstr "Acesta ar fi trebuit să fie un ID al paginii de WordPress care include codul [theme-my-login]. Ca mod implicit această pagină se numește \"Login\"."
+
+#: admin/class-theme-my-login-admin.php:273
+msgid "Pagelist"
+msgstr "Listă pagini"
+
+#: admin/class-theme-my-login-admin.php:276
+msgid "Show Page In Pagelist"
+msgstr "Arată pagină in lista de pagini"
+
+#: admin/class-theme-my-login-admin.php:277
+msgid "Enable this setting to add login/logout links to the pagelist generated by functions like wp_list_pages() and wp_page_menu()."
+msgstr "Activați această opțiune pentru a adauga legăturile Autentificare/Ieșire la lista de pagini generată de funcţii cum ar fi wp_list_pages() și wp_page_menu()."
+
+#: admin/class-theme-my-login-admin.php:281
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+#: admin/class-theme-my-login-admin.php:284
+msgid "Enable \"theme-my-login.css\""
+msgstr "Activează \"theme-my-login.css\""
+
+#: admin/class-theme-my-login-admin.php:285
+msgid "In order to keep changes between upgrades, you can store your customized \"theme-my-login.css\" in your current theme directory."
+msgstr "În scopul de a păstra modificările între upgrade-uri, puteţi stoca personalizarile dvs. \"theme-my-login.css\" în directorul curent al temei."
+
+#: admin/class-theme-my-login-admin.php:309
+#, php-format
+msgid "Enable %s"
+msgstr "Activaţi %s"
+
+#: admin/class-theme-my-login-admin.php:311
+msgid "No modules found."
+msgstr "Nici un modul găsit."
+
+#: admin/class-theme-my-login-admin.php:422
+msgid "One of the modules is invalid."
+msgstr "Unul dintre module este invalid."
+
+#: admin/class-theme-my-login-admin.php:475
+msgid "Invalid module path."
+msgstr "Calea modulului este invalidă"
+
+#: admin/class-theme-my-login-admin.php:477
+msgid "Module file does not exist."
+msgstr "Fişierul modulului nu există."
+
+#: admin/class-theme-my-login-admin.php:481
+msgid "The module does not have a valid header."
+msgstr "Modulul nu are un antet valid."
+
+#: includes/class-theme-my-login-template.php:140
+#, php-format
+msgid "Welcome, %s"
+msgstr "Bun venit, %s"
+
+#: includes/class-theme-my-login-template.php:144
+#: includes/class-theme-my-login-widget.php:86
+#: templates/register-form.php:25
+msgid "Register"
+msgstr "Înregistrare"
+
+#: includes/class-theme-my-login-template.php:150
+#: includes/class-theme-my-login-widget.php:86
+msgid "Lost Password?"
+msgstr "Mi-am pierdut parola"
+
+#: includes/class-theme-my-login-template.php:154
+#: includes/class-theme-my-login.php:393
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr "Autentificare"
+
+#: includes/class-theme-my-login-template.php:316
+#: modules/custom-user-links/custom-user-links.php:95
+msgid "Dashboard"
+msgstr "Tablou de bord"
+
+#: includes/class-theme-my-login-template.php:317
+#: modules/custom-user-links/custom-user-links.php:96
+msgid "Profile"
+msgstr "Profil"
+
+#: includes/class-theme-my-login-template.php:334
+#: modules/custom-redirection/custom-redirection.php:187
+msgid "Log out"
+msgstr "Deconectare"
+
+#: includes/class-theme-my-login-template.php:363
+msgid "Register For This Site"
+msgstr "Înregistrare pe site"
+
+#: includes/class-theme-my-login-template.php:365
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Vă rugăm să introduceţi numele de utilizator sau adresa de e-mail. Veţi primi o nouă parolă prin e-mail."
+
+#: includes/class-theme-my-login-widget.php:23
+msgid "A login form for your blog."
+msgstr "Un formular de autentificare pentru blog-ul dvs."
+
+#: includes/class-theme-my-login-widget.php:86
+msgid "Login"
+msgstr "Autentificare"
+
+#: includes/class-theme-my-login-widget.php:87
+msgid "Default Action"
+msgstr "Acțiune implicită"
+
+#: includes/class-theme-my-login-widget.php:94
+msgid "Show When Logged In"
+msgstr "Afişare când este autentificat"
+
+#: includes/class-theme-my-login-widget.php:96
+msgid "Show Title"
+msgstr "Arată titlu"
+
+#: includes/class-theme-my-login-widget.php:98
+msgid "Show Login Link"
+msgstr "Arată legătura către Autentificare"
+
+#: includes/class-theme-my-login-widget.php:100
+msgid "Show Register Link"
+msgstr "Arată legătura către Înregistrare"
+
+#: includes/class-theme-my-login-widget.php:102
+msgid "Show Lost Password Link"
+msgstr "Arată legătura catre Mi-am pierdut parola"
+
+#: includes/class-theme-my-login-widget.php:104
+msgid "Show Gravatar"
+msgstr "Arata Gravatar"
+
+#: includes/class-theme-my-login-widget.php:105
+msgid "Gravatar Size"
+msgstr "Marimea Gravatar-ului"
+
+#: includes/class-theme-my-login-widget.php:107
+msgid "Allow Registration"
+msgstr "Permiteţi înregistrare"
+
+#: includes/class-theme-my-login-widget.php:109
+msgid "Allow Password Recovery"
+msgstr "Permiteţi Recuperare Parolă"
+
+#: includes/class-theme-my-login.php:217
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Ne pare rău, cheia nu pare să mai fie valabilă."
+
+#: includes/class-theme-my-login.php:325
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"http://www.google.com/cookies.html\">enable cookies</a> to use WordPress."
+msgstr "<strong>EROARE</strong>: Cookie-urile sunt blocate sau nu sunt suportate de browser-ul dvs.. Va trebui să <a href=\"http://www.google.com/cookies.html\">Activați cookies</a> pentru a folosi WordPress."
+
+#: includes/class-theme-my-login.php:329
+msgid "You are now logged out."
+msgstr "Sunteţi acum deconectat."
+
+#: includes/class-theme-my-login.php:331
+msgid "User registration is currently not allowed."
+msgstr "Înregistrarea utilizatorilor este momentan dezactivată."
+
+#: includes/class-theme-my-login.php:333
+msgid "Check your e-mail for the confirmation link."
+msgstr "Verificaţi-vă e-mail-ul pentru link-ul de confirmare."
+
+#: includes/class-theme-my-login.php:335
+msgid "Check your e-mail for your new password."
+msgstr "Verificaţi-vă e-mail-ul pentru noua parolă."
+
+#: includes/class-theme-my-login.php:337
+msgid "Registration complete. Please check your e-mail."
+msgstr "Înregistrare completă. Vă rugăm să vă verificaţi e-mail-ul."
+
+#: includes/class-theme-my-login.php:339
+msgid "Your session has expired. Please log-in again."
+msgstr "Sesiunea dvs. a expirat. Vă rugăm să vă autentificaţi din nou."
+
+#: includes/class-theme-my-login.php:393
+msgid "Log Out"
+msgstr "Deconectare"
+
+#: includes/class-theme-my-login.php:880
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>EROARE</strong>: Introduceţi un nume de utilizator sau adresa de e-mail."
+
+#: includes/class-theme-my-login.php:885
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>EROARE</strong>: Nu există nici un utilizator înregistrat cu acea adresă de e-mail."
+
+#: includes/class-theme-my-login.php:897
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ERROR</strong>: Nume de utilizator sau e-mail invalid."
+
+#: includes/class-theme-my-login.php:911
+msgid "Password reset is not allowed for this user"
+msgstr "Resetarea parolei nu este permisă pentru acest utilizator"
+
+#: includes/class-theme-my-login.php:924
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Cineva a cerut resetarea parolei pentru site-ul si nume de utilizator."
+
+#: includes/class-theme-my-login.php:926
+#: includes/class-theme-my-login.php:983
+#: modules/custom-email/custom-email.php:474
+#: modules/custom-email/custom-email.php:491
+#: modules/custom-passwords/custom-passwords.php:336
+#: modules/user-moderation/admin/user-moderation-admin.php:165
+#: modules/user-moderation/user-moderation.php:370
+#, php-format
+msgid "Username: %s"
+msgstr "Nume utilizator: %s"
+
+#: includes/class-theme-my-login.php:927
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr "Pentru a reseta parola vizitați urmatoarea adresă, altfel ignorati acest e-mail și nimic nu se va întâmpla."
+
+#: includes/class-theme-my-login.php:938
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Resetare parolă"
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "The e-mail could not be sent."
+msgstr "E-mail-ul nu a putut fi trimis."
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Motive posibile: gazda dvs. a dezactivat funcția mail()..."
+
+#: includes/class-theme-my-login.php:965
+#: includes/class-theme-my-login.php:968
+#: includes/class-theme-my-login.php:972
+#: modules/custom-passwords/custom-passwords.php:290
+#: modules/custom-passwords/custom-passwords.php:294
+#: modules/custom-passwords/custom-passwords.php:299
+#: modules/user-moderation/user-moderation.php:248
+#: modules/user-moderation/user-moderation.php:251
+#: modules/user-moderation/user-moderation.php:256
+msgid "Invalid key"
+msgstr "Cheie invalidă"
+
+#: includes/class-theme-my-login.php:984
+#: modules/custom-email/custom-email.php:492
+#: modules/custom-passwords/custom-passwords.php:337
+#: modules/user-moderation/admin/user-moderation-admin.php:166
+#, php-format
+msgid "Password: %s"
+msgstr "Parolă: %s"
+
+#: includes/class-theme-my-login.php:995
+#: modules/custom-passwords/custom-passwords.php:345
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Noua dvs. parolă"
+
+#: includes/class-theme-my-login.php:1026
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>EROARE</strong>: Vă rugăm introduceţi un nume de utilizator."
+
+#: includes/class-theme-my-login.php:1028
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>EROARE</strong>: Acest nume de utilizator nu este valabil deoarece folosește caractere invalide. Vă rugăm să introduceţi un nume de utilizator valid."
+
+#: includes/class-theme-my-login.php:1031
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>EROARE</strong>: Acest nume de utilizator este deja înregistrat, vă rugăm alegeți altul."
+
+#: includes/class-theme-my-login.php:1036
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>EROARE</strong>: Vă rugăm introduceți adresa dvs. de e-mail."
+
+#: includes/class-theme-my-login.php:1038
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>EROARE</strong>: Adresa de e-mail nu este corectă"
+
+#: includes/class-theme-my-login.php:1041
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>EROARE</strong>: Această adresă de e-mail este deja înregistrată, vă rugăm alegeți alta."
+
+#: includes/class-theme-my-login.php:1054
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>EROARE</strong>: Înregistrarea nu s-a putut face... vă rugăm să contactaţi <a href=\"mailto:%s\">Administratorul</a> !"
+
+#: modules/custom-email/admin/custom-email-admin.php:43
+#: modules/custom-email/admin/custom-email-admin.php:170
+#: modules/user-moderation/admin/user-moderation-admin.php:333
+msgid "User Notification"
+msgstr "Notificările utilizatorului"
+
+#: modules/custom-email/admin/custom-email-admin.php:46
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "Acest e-mail va fi trimis la un utilizator nou atunci când se înregistrează."
+
+#: modules/custom-email/admin/custom-email-admin.php:47
+#: modules/custom-email/admin/custom-email-admin.php:174
+#: modules/user-moderation/admin/user-moderation-admin.php:337
+msgid "Please be sure to include the variable %user_pass% if using default passwords or else the user will not know their password!"
+msgstr "Asiguraţi  includerea variabilei %user_pass% dacă utilizatorul folosește parola implicita sau altfel utilizatorul nu își va şti parola!"
+
+#: modules/custom-email/admin/custom-email-admin.php:48
+#: modules/custom-email/admin/custom-email-admin.php:78
+#: modules/custom-email/admin/custom-email-admin.php:128
+#: modules/custom-email/admin/custom-email-admin.php:175
+#: modules/custom-email/admin/custom-email-admin.php:205
+#: modules/user-moderation/admin/user-moderation-admin.php:287
+#: modules/user-moderation/admin/user-moderation-admin.php:338
+#: modules/user-moderation/admin/user-moderation-admin.php:368
+#: modules/user-moderation/admin/user-moderation-admin.php:421
+msgid "If any field is left empty, the default will be used instead."
+msgstr "În cazul în care un câmp este lăsat gol, cel implicit va fi folosit în loc."
+
+#: modules/custom-email/admin/custom-email-admin.php:51
+#: modules/custom-email/admin/custom-email-admin.php:84
+#: modules/custom-email/admin/custom-email-admin.php:131
+#: modules/custom-email/admin/custom-email-admin.php:178
+#: modules/custom-email/admin/custom-email-admin.php:211
+#: modules/user-moderation/admin/user-moderation-admin.php:290
+#: modules/user-moderation/admin/user-moderation-admin.php:341
+#: modules/user-moderation/admin/user-moderation-admin.php:374
+#: modules/user-moderation/admin/user-moderation-admin.php:424
+msgid "From Name"
+msgstr "După nume"
+
+#: modules/custom-email/admin/custom-email-admin.php:54
+#: modules/custom-email/admin/custom-email-admin.php:87
+#: modules/custom-email/admin/custom-email-admin.php:134
+#: modules/custom-email/admin/custom-email-admin.php:181
+#: modules/custom-email/admin/custom-email-admin.php:214
+#: modules/user-moderation/admin/user-moderation-admin.php:293
+#: modules/user-moderation/admin/user-moderation-admin.php:344
+#: modules/user-moderation/admin/user-moderation-admin.php:377
+#: modules/user-moderation/admin/user-moderation-admin.php:427
+msgid "From E-mail"
+msgstr "După e-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:57
+#: modules/custom-email/admin/custom-email-admin.php:90
+#: modules/custom-email/admin/custom-email-admin.php:137
+#: modules/custom-email/admin/custom-email-admin.php:184
+#: modules/custom-email/admin/custom-email-admin.php:217
+#: modules/user-moderation/admin/user-moderation-admin.php:296
+#: modules/user-moderation/admin/user-moderation-admin.php:347
+#: modules/user-moderation/admin/user-moderation-admin.php:380
+#: modules/user-moderation/admin/user-moderation-admin.php:430
+msgid "E-mail Format"
+msgstr "Forma e-mail-ului"
+
+#: modules/custom-email/admin/custom-email-admin.php:63
+#: modules/custom-email/admin/custom-email-admin.php:96
+#: modules/custom-email/admin/custom-email-admin.php:143
+#: modules/custom-email/admin/custom-email-admin.php:190
+#: modules/custom-email/admin/custom-email-admin.php:223
+#: modules/user-moderation/admin/user-moderation-admin.php:302
+#: modules/user-moderation/admin/user-moderation-admin.php:353
+#: modules/user-moderation/admin/user-moderation-admin.php:386
+#: modules/user-moderation/admin/user-moderation-admin.php:436
+msgid "Subject"
+msgstr "Subiect"
+
+#: modules/custom-email/admin/custom-email-admin.php:66
+#: modules/custom-email/admin/custom-email-admin.php:99
+#: modules/custom-email/admin/custom-email-admin.php:146
+#: modules/custom-email/admin/custom-email-admin.php:193
+#: modules/custom-email/admin/custom-email-admin.php:226
+#: modules/user-moderation/admin/user-moderation-admin.php:305
+#: modules/user-moderation/admin/user-moderation-admin.php:356
+#: modules/user-moderation/admin/user-moderation-admin.php:389
+#: modules/user-moderation/admin/user-moderation-admin.php:439
+msgid "Message"
+msgstr "Mesaj"
+
+#: modules/custom-email/admin/custom-email-admin.php:69
+#: modules/custom-email/admin/custom-email-admin.php:102
+#: modules/custom-email/admin/custom-email-admin.php:149
+#: modules/custom-email/admin/custom-email-admin.php:196
+#: modules/custom-email/admin/custom-email-admin.php:229
+#: modules/user-moderation/admin/user-moderation-admin.php:308
+#: modules/user-moderation/admin/user-moderation-admin.php:359
+#: modules/user-moderation/admin/user-moderation-admin.php:392
+#: modules/user-moderation/admin/user-moderation-admin.php:442
+msgid "Available Variables"
+msgstr "Variabile disponibile"
+
+#: modules/custom-email/admin/custom-email-admin.php:74
+#: modules/custom-email/admin/custom-email-admin.php:201
+#: modules/user-moderation/admin/user-moderation-admin.php:364
+msgid "Admin Notification"
+msgstr "Notificarile admin-ului"
+
+#: modules/custom-email/admin/custom-email-admin.php:77
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon new user registration."
+msgstr "Acest e-mail va fi trimis la adresa de e-mail sau adresele (mai multe adrese pot fi separate prin virgule) specificate mai jos, la înregistrarea unui utilizator nou."
+
+#: modules/custom-email/admin/custom-email-admin.php:81
+#: modules/custom-email/admin/custom-email-admin.php:208
+#: modules/user-moderation/admin/user-moderation-admin.php:371
+msgid "To"
+msgstr "Către"
+
+#: modules/custom-email/admin/custom-email-admin.php:126
+msgid "This e-mail will be sent to a user when they attempt to recover their password."
+msgstr "Acest e-mail va fi trimis către un utilizator atunci când încearcă să își recupereze parola."
+
+#: modules/custom-email/admin/custom-email-admin.php:127
+msgid "Please be sure to include the variable %reseturl% or else the user will not be able to recover their password!"
+msgstr "Asiguraţi includerea variabilei %reseturl% sau altfel utilizatorul nu va putea să își recupereze parola!"
+
+#: modules/custom-email/admin/custom-email-admin.php:173
+msgid "This e-mail will be sent to a user upon successful password recovery."
+msgstr "Acest e-mail va fi trimis către un utilizator la recuperare parolei cu succes."
+
+#: modules/custom-email/admin/custom-email-admin.php:204
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon user password change."
+msgstr "Acest e-mail va fi trimis la adresa de e-mail sau adresele (mai multe adrese pot fi separate prin virgule) specificate mai jos, la schimbarea parolei de utilizator."
+
+#: modules/custom-email/admin/custom-email-admin.php:231
+#: modules/user-moderation/admin/user-moderation-admin.php:394
+msgid "Disable Admin Notification"
+msgstr "Dezactivare Notificarile admin-ului"
+
+#: modules/custom-email/admin/custom-email-admin.php:251
+#: templates/profile-form.php:86
+#: templates/register-form.php:16
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:252
+msgid "New User"
+msgstr "Utilizator nou"
+
+#: modules/custom-email/admin/custom-email-admin.php:253
+msgid "Retrieve Password"
+msgstr "Recuperare parolă"
+
+#: modules/custom-email/admin/custom-email-admin.php:254
+msgid "Reset Password"
+msgstr "Resetare Parolă"
+
+#: modules/custom-email/custom-email.php:473
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Un utilizator s-a inregistrat pe site-ul dvs. %s:"
+
+#: modules/custom-email/custom-email.php:475
+#: modules/user-moderation/user-moderation.php:371
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: modules/custom-email/custom-email.php:477
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Înregistrare utilizator nou"
+
+#: modules/custom-email/custom-email.php:495
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Numele de utilizator şi parola"
+
+#: modules/custom-email/custom-email.php:525
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Parolă uitată/schimbată"
+
+#: modules/custom-email/custom-email.php:526
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Parolă pierdută si schimbată pentru utilizatorul: %s"
+
+#: modules/custom-passwords/custom-passwords.php:29
+msgid "Password:"
+msgstr "Parolă"
+
+#: modules/custom-passwords/custom-passwords.php:31
+#: templates/resetpass-form.php:16
+msgid "Confirm Password:"
+msgstr "Confirmare parolă"
+
+#: modules/custom-passwords/custom-passwords.php:54
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>EROARE</strong>: Vă rugam introduceți o parolă"
+
+#: modules/custom-passwords/custom-passwords.php:57
+msgid "<strong>ERROR</strong>: Your passwords do not match."
+msgstr "<strong>EROARE</strong>: Parolele nu se potrivesc."
+
+#: modules/custom-passwords/custom-passwords.php:60
+msgid "<strong>ERROR</strong>: Your password must be at least 6 characters in length."
+msgstr "<strong>EROARE</strong>: Parola dvs. trebuie să fie de cel puţin 6 caractere în lungime"
+
+#: modules/custom-passwords/custom-passwords.php:188
+msgid "Please enter your username or e-mail address. You will receive an e-mail with a link to reset your password."
+msgstr "Vă rugăm să introduceţi numele de utilizator sau adresa de e-mail. Veţi primi un e-mail cu un link pentru resetarea parolei."
+
+#: modules/custom-passwords/custom-passwords.php:191
+msgid "Please enter a new password."
+msgstr "Vă rugăm să introduceţi o nouă parolă."
+
+#: modules/custom-passwords/custom-passwords.php:224
+msgid "Registration complete. You may now log in."
+msgstr "Înregistrare completă. Va puteti autentifica acum."
+
+#: modules/custom-passwords/custom-passwords.php:227
+msgid "Your password has been saved. You may now log in."
+msgstr "Parola dumneavoastră a fost salvată. Va puteti autentifica acum."
+
+#: modules/custom-redirection/custom-redirection.php:148
+msgid "Redirection"
+msgstr "Redirecționare"
+
+#: modules/custom-redirection/custom-redirection.php:175
+msgid "Log in"
+msgstr "Autentificare"
+
+#: modules/custom-redirection/custom-redirection.php:177
+#: modules/custom-redirection/custom-redirection.php:189
+msgid "Default"
+msgstr "Implicit"
+
+#: modules/custom-redirection/custom-redirection.php:178
+msgid "Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "Bifaţi această opţiune pentru a trimite utilizatorului la panoul de profil/control WordPress."
+
+#: modules/custom-redirection/custom-redirection.php:179
+#: modules/custom-redirection/custom-redirection.php:191
+msgid "Referer"
+msgstr "Referer"
+
+#: modules/custom-redirection/custom-redirection.php:180
+msgid "Check this option to send the user back to the page they were visiting before logging in."
+msgstr "Bifați această opţiune pentru a trimite utilizatorul înapoi la pagina pe care a vizitato înainte de a se deconecta."
+
+#: modules/custom-redirection/custom-redirection.php:183
+#: modules/custom-redirection/custom-redirection.php:195
+msgid "Check this option to send the user to a custom location, specified by the textbox above."
+msgstr "Bifaţi această opţiune pentru a trimite utilizatorul la o locaţie particularizată, specificată de casuța de mai sus."
+
+#: modules/custom-redirection/custom-redirection.php:190
+msgid "Check this option to send the user to the log in page, displaying a message that they have successfully logged out."
+msgstr "Bifaţi această opţiune pentru a trimite utilizatorul în pagina de autentificare, afişând un mesaj care sa îl anunțe ca s-a deconectat cu succes."
+
+#: modules/custom-redirection/custom-redirection.php:192
+msgid "Check this option to send the user back to the page they were visiting before logging out. (Note: If the previous page being visited was an admin page, this can have unexpected results.)"
+msgstr "Bifațt această opţiune pentru a trimite utilizatorul înapoi la pagina pe care au vizitato înainte de a se deconecta. (Notă: Dacă pagina anterioară a fost o pagină admin, acest lucru poate avea rezultate neaşteptate.)"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:139
+msgid "User Links"
+msgstr "Legăturile utilizatorului"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:229
+#: modules/custom-user-links/admin/custom-user-links-admin.php:252
+#: modules/custom-user-links/admin/custom-user-links-admin.php:297
+msgid "Title"
+msgstr "Titlu"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:230
+#: modules/custom-user-links/admin/custom-user-links-admin.php:253
+#: modules/custom-user-links/admin/custom-user-links-admin.php:301
+msgid "URL"
+msgstr "URL"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:247
+msgid "Add New link:"
+msgstr "Adaugă legătură nouă"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:263
+msgid "Add link"
+msgstr "Adaugă legătura"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:303
+msgid "Delete"
+msgstr "Șterge"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:304
+msgid "Update"
+msgstr "Actualizare"
+
+#: modules/security/admin/security-admin.php:35
+#: modules/security/admin/security-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:50
+msgid "You can&#8217;t edit that user."
+msgstr "Nu puteți edita acel utilizator"
+
+#: modules/security/admin/security-admin.php:70
+msgid "User locked."
+msgstr "Utilizator blocat."
+
+#: modules/security/admin/security-admin.php:72
+msgid "User unlocked."
+msgstr "Utilizator deblocat."
+
+#: modules/security/admin/security-admin.php:95
+msgid "Unlock"
+msgstr "Deblochează"
+
+#: modules/security/admin/security-admin.php:97
+msgid "Lock"
+msgstr "Blochează"
+
+#: modules/security/admin/security-admin.php:116
+msgid "Security"
+msgstr "Securitate"
+
+#: modules/security/admin/security-admin.php:136
+msgid "Login Attempts"
+msgstr "Încercări de autentificare"
+
+#: modules/security/admin/security-admin.php:141
+msgid "minute(s)"
+msgstr "minute"
+
+#: modules/security/admin/security-admin.php:142
+msgid "hour(s)"
+msgstr "ore"
+
+#: modules/security/admin/security-admin.php:143
+msgid "day(s)"
+msgstr "zile"
+
+#: modules/security/admin/security-admin.php:166
+#, php-format
+msgid "After %1$s failed login attempts within %2$s %3$s, lockout the account for %4$s %5$s."
+msgstr "După %1$s încercări eșuate de autentificare în intervalul de %2$s %3$s, blocați acel cont pentru %4$s %5$s."
+
+#: modules/security/security.php:43
+#: modules/security/security.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: This account has been locked because of too many failed login attempts. You may try again in %s."
+msgstr "<strong>EROARE</strong>: Acest cont a fost blocat din cauza prea multor încercări eşuate de autentificare. Puteţi încerca din nou în %s."
+
+#: modules/security/security.php:45
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>EROARE</strong>: Acest cont a fost blocat."
+
+#: modules/themed-profiles/themed-profiles.php:77
+#: templates/profile-form.php:125
+msgid "Strength indicator"
+msgstr "Putere parolă"
+
+#: modules/themed-profiles/themed-profiles.php:78
+msgid "Very weak"
+msgstr "Foarte slabă"
+
+#: modules/themed-profiles/themed-profiles.php:79
+msgid "Weak"
+msgstr "Slabă"
+
+#. translators: password strength
+#: modules/themed-profiles/themed-profiles.php:81
+msgctxt "password strength"
+msgid "Medium"
+msgstr "Medie"
+
+#: modules/themed-profiles/themed-profiles.php:82
+msgid "Strong"
+msgstr "Puternică"
+
+#: modules/themed-profiles/themed-profiles.php:92
+msgid "You do not have permission to edit this user."
+msgstr "Nu aveți permisiunea de a edita acest utilizator"
+
+#: modules/themed-profiles/themed-profiles.php:108
+msgid "Profile updated."
+msgstr "Profil actualizat."
+
+#: modules/themed-profiles/themed-profiles.php:178
+msgid "Your Profile"
+msgstr "Profilul dvs."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:83
+msgid "User approved."
+msgstr "Utilizator aprobat."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:85
+msgid "Activation sent."
+msgstr "Activare trimisă."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:111
+msgid "Resend Activation"
+msgstr "Retrimite activare"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:116
+msgid "Approve"
+msgstr "Aprobă"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:150
+#: modules/user-moderation/user-moderation.php:275
+msgid "Same as when you signed up."
+msgstr "La fel ca atunci când v-aţi înscris."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:164
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "Va fost aprobat accesul la %s"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:169
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] Înregistrare apobată"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:203
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "Nu aveți acces la %s"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:204
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] Înregistrare respinsă"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:226
+msgid "Moderation"
+msgstr "Moderare"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:228
+msgid "User Activation"
+msgstr "Activare utilizator"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:229
+msgid "User Approval"
+msgstr "Aprobare utilizator"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:230
+msgid "User Denial"
+msgstr "Refuza utilizator"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:249
+msgid "User Moderation"
+msgstr "Moderare utilizator"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:252
+msgid "None"
+msgstr "Nici unul"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:253
+msgid "Check this option to require no moderation."
+msgstr "Bifați această opţiune pentru a nu necesita moderare."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:255
+msgid "E-mail Confirmation"
+msgstr "Confirmare e-mail"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:256
+msgid "Check this option to require new users to confirm their e-mail address before they may log in."
+msgstr "Bifaţi această opţiune pentru a solicita noi utilizatori pentru a confirma adresa de e-mail înainte de a se putea autentifica."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:258
+msgid "Admin Approval"
+msgstr "Aprobarea admin"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:259
+msgid "Check this option to require new users to be approved by an administrator before they may log in."
+msgstr "Bifaţi această opţiune pentru a solicita noilor utilizatori să aștepte aprobarea administratorului înainte de a se putea autentifica"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:285
+msgid "This e-mail will be sent to a new user upon registration when \"E-mail Confirmation\" is checked for \"User Moderation\"."
+msgstr "Acest e-mail va fi trimis la un utilizator nou la înregistrare atunci când \"E-mail-ul de confirmare\" este bifat pentru \"Moderare utilizator\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:286
+msgid "Please be sure to include the variable %activateurl% or else the user will not be able to activate their account!"
+msgstr "Asiguraţi includerea variabilului %activateurl% sau altfel utilizatorul nu va fi capabil de a-și activa contul!"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:336
+msgid "This e-mail will be sent to a new user upon admin approval when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Acest e-mail va fi trimis la un utilizator nou, cu aprobarea admin-ului atunci când \"Aprobarea Admin-ului\" este bifată pentru \"Moderarea utilizatorului\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:367
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below upon user registration when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Acest e-mail va fi trimis la adresa de e-mail sau adresele (mai multe adrese pot fi separate prin virgule) specificate mai jos la înregistrarea utilizatorilor atunci când \"Aprobarea Admin-ului\" este bifată pentru \"Moderarea utilizatorului\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:420
+msgid "This e-mail will be sent to a user who is deleted/denied when \"Admin Approval\" is checked for \"User Moderation\" and the user's role is \"Pending\"."
+msgstr "Acest e-mail va fi trimis la un utilizator care este şters/refuzat atunci când \"Aprobarea admin-ului\" este bifată pentru \"Moderarea utilizatorului\" şi rolul utilizatorului este \"În aşteptarea\"."
+
+#: modules/user-moderation/user-moderation.php:171
+#, php-format
+msgid "<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a href=\"%s\">Resend activation</a>?"
+msgstr "<strong>EROARE</strong>: Nu ati confirmat încă adresa de e-mail. <a href=\"%s\">Retrimite activarea</a>?"
+
+#: modules/user-moderation/user-moderation.php:174
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>EROARE</strong>: Înregistrarea dvs. nu a fost încă aprobată."
+
+#: modules/user-moderation/user-moderation.php:334
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Activați contul"
+
+#: modules/user-moderation/user-moderation.php:335
+#, php-format
+msgid "Thanks for registering at %s! To complete the activation of your account please click the following link: "
+msgstr "Vă mulţumim pentru înregistrarea la %s! Pentru a finaliza activarea contului dumneavoastră, vă rugăm faceţi clic pe link-ul următor:"
+
+#: modules/user-moderation/user-moderation.php:367
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] Utilizator nou aşteaptă aprobarea"
+
+#: modules/user-moderation/user-moderation.php:369
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "Utilizator nou necesită aprobare pe blog-ul dvs. %s:"
+
+#: modules/user-moderation/user-moderation.php:372
+msgid "To approve or deny this user:"
+msgstr "Pentru a aproba sau respinge acest utilizator:"
+
+#: modules/user-moderation/user-moderation.php:393
+msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
+msgstr "Înregistrarea dvs. a fost reuşită, dar trebuie sa va confirmați adresa de email înainte de a vă puteţi autentifica Vă rugăm să verificaţi adresa dvs. de email şi faceţi clic pe link-ul oferit."
+
+#: modules/user-moderation/user-moderation.php:395
+msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
+msgstr "Înregistrarea dvs. a fost reuşită, dar trebuie să fie aprobat de către un administrator înainte de a vă puteţi autentifica Veţi fi notificat prin e-mail odată ce contul dvs. a fost revizuit."
+
+#: modules/user-moderation/user-moderation.php:398
+msgid "Your account has been activated. You may now log in."
+msgstr "Contul dvs. a fost activat. Va puteti autentifica acum."
+
+#: modules/user-moderation/user-moderation.php:400
+msgid "Your account has been activated. Please check your e-mail for your password."
+msgstr "Contul dvs. a fost activat. Vă rugăm să verificaţi e-mail-ul pentru parolă."
+
+#: modules/user-moderation/user-moderation.php:402
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>EROARE</strong>: Ne pare rău, cheia nu pare să mai fie valabilă."
+
+#: modules/user-moderation/user-moderation.php:405
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>EROARE</strong>: Ne pare rău, activarea prin e-mail nu a putut fi trimisă."
+
+#: modules/user-moderation/user-moderation.php:407
+msgid "The activation e-mail has been sent to the e-mail address with which you registered. Please check your email and click on the link provided."
+msgstr "activarea e-mail a fost trimisă la adresa de e-mail cu care v-aţi înregistrat. Vă rugăm să verificaţi adresa dvs. de email şi faceţi clic pe link-ul oferit."
+
+#: templates/login-form.php:12
+#: templates/profile-form.php:34
+#: templates/register-form.php:12
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: templates/login-form.php:16
+msgid "Password"
+msgstr "Parolă"
+
+#: templates/login-form.php:25
+msgid "Remember Me"
+msgstr "Tine-ma minte"
+
+#: templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "Nume utilizator sau e-mail:"
+
+#: templates/lostpassword-form.php:20
+msgid "Get New Password"
+msgstr "Obține parolă nouă"
+
+#: templates/profile-form.php:22
+msgid "Personal Options"
+msgstr "Opțiuni personale"
+
+#: templates/profile-form.php:30
+msgid "Name"
+msgstr "Nume"
+
+#: templates/profile-form.php:35
+msgid "Your username cannot be changed."
+msgstr "Numele de utilizator nu poate fi schimbat"
+
+#: templates/profile-form.php:39
+msgid "First name"
+msgstr "Prenume"
+
+#: templates/profile-form.php:44
+msgid "Last name"
+msgstr "Ultimul nume"
+
+#: templates/profile-form.php:49
+msgid "Nickname"
+msgstr "Poreclă"
+
+#: templates/profile-form.php:49
+#: templates/profile-form.php:86
+msgid "(required)"
+msgstr "(necesar)"
+
+#: templates/profile-form.php:54
+msgid "Display name publicly as"
+msgstr "Afişează numele public ca"
+
+#: templates/profile-form.php:82
+msgid "Contact Info"
+msgstr "Informații de Contact"
+
+#: templates/profile-form.php:91
+msgid "Website"
+msgstr "Website"
+
+#: templates/profile-form.php:108
+msgid "About Yourself"
+msgstr "Despre Tine"
+
+#: templates/profile-form.php:112
+msgid "Biographical Info"
+msgstr "Informații Biografice"
+
+#: templates/profile-form.php:114
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Împărtășește ceva despre tine pentru a completa profilul. Va fi făcut public."
+
+#: templates/profile-form.php:122
+msgid "New Password"
+msgstr "Parolă nouă"
+
+#: templates/profile-form.php:123
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Daca doriţi să schimbaţi parola introduceţi noua parolă, altfel lasaţi necompletat."
+
+#: templates/profile-form.php:124
+msgid "Type your new password again."
+msgstr "Tastaţi noua parolă din nou"
+
+#: templates/profile-form.php:126
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Sugestie: Parola ar trebui să fie de cel puţin şapte caractere. Pentru a o face mai puternică, folosiţi litere mari şi mici, numere şi simboluri cum ar fi  ! \" ? $ % ^ &amp; )."
+
+#: templates/profile-form.php:140
+msgid "Additional Capabilities"
+msgstr "Capacităţi suplimentare"
+
+#: templates/profile-form.php:159
+msgid "Update Profile"
+msgstr "Actualizare Profil"
+
+#: templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "Parola va fi trimisă prin e-mail."
+
+#: templates/resetpass-form.php:12
+msgid "New Password:"
+msgstr "Parolă noua:"
+
+#: templates/resetpass-form.php:24
+msgid "Change Password"
+msgstr "Schimbare Parolă"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+msgstr "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+
+#. Description of the plugin/theme
+msgid "Themes the WordPress login, registration and forgot password pages according to your theme."
+msgstr "Personalizează pagina de autentificare WordPress, înregistrare şi parolă uitată, în funcţie de tema folosită"
+
+#. Author of the plugin/theme
+msgid "Jeff Farthing"
+msgstr "Jeff Farthing"
+
+#. Author URI of the plugin/theme
+msgid "http://www.jfarthing.com"
+msgstr "http://www.jfarthing.com"
+

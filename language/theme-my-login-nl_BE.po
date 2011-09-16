@@ -1,0 +1,1080 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme-my-login\n"
+"POT-Creation-Date: 2010-10-03 19:07+0000\n"
+"PO-Revision-Date: 2011-01-07 08:26-0500\n"
+"Last-Translator: Jeff Farthing <jeff@jfarthing.com>\n"
+"Language-Team: Klasse <toon@klasse.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: BELGIUM\n"
+
+#. #-#-#-#-#  plugin.pot (Theme My Login 6.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-theme-my-login-admin.php:51
+#: admin/class-theme-my-login-admin.php:52
+#: includes/class-theme-my-login-widget.php:24
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: admin/class-theme-my-login-admin.php:88
+#, php-format
+msgid "ERROR: The module \"%1$s\" could not be activated (%2$s)."
+msgstr "ERROR: De module \"%1$s\" kon niet worden geactiveerd (%2$s)."
+
+#: admin/class-theme-my-login-admin.php:108
+msgid "NOTICE:"
+msgstr "OPGELET:"
+
+#: admin/class-theme-my-login-admin.php:109
+#, php-format
+msgid "Now that you have activated Theme My Login, please <a href=\"%s\">visit the settings page</a> and familiarize yourself with all of the available options."
+msgstr "Je hebt Theme My Login geactiveerd, bezoek de <a href=\"%s\">instellingen</a> en overloop de beschikbare opties."
+
+#: admin/class-theme-my-login-admin.php:111
+msgid "Take me to the settings page"
+msgstr "Ga naar de instellingen"
+
+#: admin/class-theme-my-login-admin.php:124
+msgid "You can now login with your e-mail address or username! Try it out!"
+msgstr "Je kan nu inloggen met je e-mailadres of gebruikersnaam! Probeer het!"
+
+#: admin/class-theme-my-login-admin.php:125
+msgid "Theme My Login now utilizes a module system. Modules are similar to WordPress plugins. Each module extends the default functionality of Theme My Login. <a rel=\"tml-options\" href=\"#tml-modules\">Click here</a> to get started with modules now."
+msgstr "Theme My Login gebruikt een module-systeem. Modules lijken op Wordpress plugins. Elke module breidt de standaardfuntionaliteit van Theme My Login uit.  <a rel=\"tml-options\" href=\"#tml-modules\">Klik hier</a> voor de modules."
+
+#: admin/class-theme-my-login-admin.php:126
+msgid "Theme My Login now allows custom forms. You can create your own form template(s) by copying the default version(s) from \"theme-my-login/templates\" to your current theme directory. Try it out!"
+msgstr "Theme My Login voorziet nu het gebruik van eigen formulieren. Je kan je eigen template(s) maken door de standaardversies in \"theme-my-login/templates\" te kopiëren naar je eigen theme-directory. Probeer het!"
+
+#: admin/class-theme-my-login-admin.php:127
+msgid "You can maintain your stylesheet changes between upgrades. Just simply copy the file \"theme-my-login/theme-my-login.css\" to your current theme directory and edit it as you please!"
+msgstr "Je kan de veranderingen aan je stylesheet behouden bij een upgrade. Kopieer het bestand \"theme-my-login/theme-my-login.css\" naar je theme-folder en bewerk het daar."
+
+#: admin/class-theme-my-login-admin.php:128
+msgid "Theme My Login provides a shortcode that you can use within your posts with multiple parameters to customize the form. Visit the <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">Theme My Login Documentation</a> for usage instructions."
+msgstr "Theme My Login gebruikt een shortcode-systeem dat je in je posts kan gebruiken, met verschillende parameters om je formulier aan te passen. Bezoek de <a href=\"http://www.jfarthing.com/docs/theme-my-login/shortcode\" target=\"_blank\">documentatie</a> voor een uitgebreide handleiding."
+
+#: admin/class-theme-my-login-admin.php:129
+msgid "Theme My Login is <em>FREE</em> but Jeff sure appreciates <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">donations</a>!"
+msgstr "Theme My Login is <em>GRATIS</em> maar Jeff stelt elke <a href=\"http://www.jfarthing.com/donate\" target=\"_blank\">gulle gift</a> op prijs!"
+
+#: admin/class-theme-my-login-admin.php:130
+msgid "Jeff is <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">available for hire</a>!"
+msgstr "Je kan Jeff <a href=\"http://www.jfarthing.com/hire-me\" target=\"_blank\">inhuren</a>!"
+
+#: admin/class-theme-my-login-admin.php:134
+msgid "Did You Know?"
+msgstr "Wist je...?"
+
+#: admin/class-theme-my-login-admin.php:175
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/class-theme-my-login-admin.php:176
+msgid "Basic"
+msgstr "Basis"
+
+#: admin/class-theme-my-login-admin.php:177
+#: admin/class-theme-my-login-admin.php:305
+msgid "Modules"
+msgstr "Modules"
+
+#: admin/class-theme-my-login-admin.php:184
+msgid "Theme My Login Settings"
+msgstr "Theme My Login Instellingen"
+
+#: admin/class-theme-my-login-admin.php:190
+#: admin/class-theme-my-login-admin.php:247
+msgid "Save Changes"
+msgstr "Wijzigingen Opslaan"
+
+#: admin/class-theme-my-login-admin.php:266
+msgid "Page ID"
+msgstr "Pagina ID"
+
+#: admin/class-theme-my-login-admin.php:269
+msgid "This should be the ID of the WordPress page that includes the [theme-my-login] shortcode. By default, this page is titled \"Login\"."
+msgstr "Dit moet de ID zijn van de WordPress pagina waar de [theme-my-login] shortcode staat. Standaard heet deze pagina \"Login\"."
+
+#: admin/class-theme-my-login-admin.php:273
+msgid "Pagelist"
+msgstr "Paginalijst"
+
+#: admin/class-theme-my-login-admin.php:276
+msgid "Show Page In Pagelist"
+msgstr "Toon Pagina in Paginalijst"
+
+#: admin/class-theme-my-login-admin.php:277
+msgid "Enable this setting to add login/logout links to the pagelist generated by functions like wp_list_pages() and wp_page_menu()."
+msgstr "Zet deze instelling aan om login/logout links toe te voegen aan de paginalijst gegenereerd door functies als wp_list_pages() en wp_page_menu()."
+
+#: admin/class-theme-my-login-admin.php:281
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+#: admin/class-theme-my-login-admin.php:284
+msgid "Enable \"theme-my-login.css\""
+msgstr "Sta \"theme-my-login.css\" toe"
+
+#: admin/class-theme-my-login-admin.php:285
+msgid "In order to keep changes between upgrades, you can store your customized \"theme-my-login.css\" in your current theme directory."
+msgstr "Om je aanpassingen te bewaren na een upgrade, zet je de aangepaste \"theme-my-login.css\" in de directory van je theme."
+
+#: admin/class-theme-my-login-admin.php:309
+#, php-format
+msgid "Enable %s"
+msgstr "Zet %s aan"
+
+#: admin/class-theme-my-login-admin.php:311
+msgid "No modules found."
+msgstr "Geen modules gevonden."
+
+#: admin/class-theme-my-login-admin.php:422
+msgid "One of the modules is invalid."
+msgstr "Één van de modules is ongeldig."
+
+#: admin/class-theme-my-login-admin.php:475
+msgid "Invalid module path."
+msgstr "Ongeldig pad naar module."
+
+#: admin/class-theme-my-login-admin.php:477
+msgid "Module file does not exist."
+msgstr "Module-bestand bestaat niet."
+
+#: admin/class-theme-my-login-admin.php:481
+msgid "The module does not have a valid header."
+msgstr "De module heeft geen geldige header."
+
+#: includes/class-theme-my-login-template.php:140
+#, php-format
+msgid "Welcome, %s"
+msgstr "Welkom, %s"
+
+#: includes/class-theme-my-login-template.php:144
+#: includes/class-theme-my-login-widget.php:86
+#: templates/register-form.php:25
+msgid "Register"
+msgstr "Registreer"
+
+#: includes/class-theme-my-login-template.php:150
+#: includes/class-theme-my-login-widget.php:86
+msgid "Lost Password"
+msgstr "Wachtwoord vergeten"
+
+#: includes/class-theme-my-login-template.php:154
+#: includes/class-theme-my-login.php:393
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr "Inloggen"
+
+#: includes/class-theme-my-login-template.php:316
+#: modules/custom-user-links/custom-user-links.php:95
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/class-theme-my-login-template.php:317
+#: modules/custom-user-links/custom-user-links.php:96
+msgid "Profile"
+msgstr "Profiel"
+
+#: includes/class-theme-my-login-template.php:334
+#: modules/custom-redirection/custom-redirection.php:187
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: includes/class-theme-my-login-template.php:363
+msgid "Register For This Site"
+msgstr "Registreer voor deze site"
+
+#: includes/class-theme-my-login-template.php:365
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Vul je gebruikersnaam of e-mailadres in. Je krijgt een nieuw wachtwoord via e-mail."
+
+#: includes/class-theme-my-login-widget.php:23
+msgid "A login form for your blog."
+msgstr "Een loginformulier voor je blog."
+
+#: includes/class-theme-my-login-widget.php:86
+msgid "Login"
+msgstr "Login"
+
+#: includes/class-theme-my-login-widget.php:87
+msgid "Default Action"
+msgstr "Standaardactie"
+
+#: includes/class-theme-my-login-widget.php:94
+msgid "Show When Logged In"
+msgstr "Tonen als je ingelogd bent"
+
+#: includes/class-theme-my-login-widget.php:96
+msgid "Show Title"
+msgstr "Toon titel"
+
+#: includes/class-theme-my-login-widget.php:98
+msgid "Show Login Link"
+msgstr "Toon loginlink"
+
+#: includes/class-theme-my-login-widget.php:100
+msgid "Show Register Link"
+msgstr "Toon registreerlink"
+
+#: includes/class-theme-my-login-widget.php:102
+msgid "Show Lost Password Link"
+msgstr "Toon wachtwoord-vergeten-link"
+
+#: includes/class-theme-my-login-widget.php:104
+msgid "Show Gravatar"
+msgstr "Toon gravatar"
+
+#: includes/class-theme-my-login-widget.php:105
+msgid "Gravatar Size"
+msgstr "Gravataar formaat"
+
+#: includes/class-theme-my-login-widget.php:107
+msgid "Allow Registration"
+msgstr "Registratie toestaan"
+
+#: includes/class-theme-my-login-widget.php:109
+msgid "Allow Password Recovery"
+msgstr "Wachtwoordherstel toestaan"
+
+#: includes/class-theme-my-login.php:217
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Sorry, die key lijkt ongeldig."
+
+#: includes/class-theme-my-login.php:325
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"http://www.google.com/cookies.html\">enable cookies</a> to use WordPress."
+msgstr "<strong>FOUT</strong>: Cookies worden geblokkeerd of zijn niet ondersteund door je browser. Je moet <a href=\"http://www.google.com/support/websearch/bin/answer.py?answer=35851&hl=nl\">Cookies</a> toestaan om WordPress te kunnen gebruiken."
+
+#: includes/class-theme-my-login.php:329
+msgid "You are now logged out."
+msgstr "Je bent nu uitgelogd"
+
+#: includes/class-theme-my-login.php:331
+msgid "User registration is currently not allowed."
+msgstr "Registreren is niet toegelaten."
+
+#: includes/class-theme-my-login.php:333
+msgid "Check your e-mail for the confirmation link."
+msgstr "Kijk je e-mail na voor de bevestiging."
+
+#: includes/class-theme-my-login.php:335
+msgid "Check your e-mail for your new password."
+msgstr "Kijk je e-mail naar voor je nieuwe wachtwoord."
+
+#: includes/class-theme-my-login.php:337
+msgid "Registration complete. Please check your e-mail."
+msgstr "Registratie afgewerkt. Kijk je e-mail na."
+
+#: includes/class-theme-my-login.php:339
+msgid "Your session has expired. Please log-in again."
+msgstr "Je sessie is verlopen. Log opnieuw in."
+
+#: includes/class-theme-my-login.php:393
+msgid "Log Out"
+msgstr "Uitloggen"
+
+#: includes/class-theme-my-login.php:880
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>FOUT</strong>: Vul een gebruikersnaam of e-mailadres in."
+
+#: includes/class-theme-my-login.php:885
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>FOUT</strong>: Er is geen gebruiker met dat e-mailadres."
+
+#: includes/class-theme-my-login.php:897
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of ongeldig e-mailadres."
+
+#: includes/class-theme-my-login.php:911
+msgid "Password reset is not allowed for this user"
+msgstr "Wachtwoordherstel is niet toegelaten voor deze gebruiker"
+
+#: includes/class-theme-my-login.php:924
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Iemand heeft aangevraagd om het wachtwoord te herstellen van deze gebruiker/site."
+
+#: includes/class-theme-my-login.php:926
+#: includes/class-theme-my-login.php:983
+#: modules/custom-email/custom-email.php:474
+#: modules/custom-email/custom-email.php:491
+#: modules/custom-passwords/custom-passwords.php:336
+#: modules/user-moderation/admin/user-moderation-admin.php:165
+#: modules/user-moderation/user-moderation.php:370
+#, php-format
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: includes/class-theme-my-login.php:927
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Om je wachtwoord te herstellen, bezoek de volgende link, of negeer deze e-mail om je wachtwoord te behouden."
+
+#: includes/class-theme-my-login.php:938
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord Hersteld"
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "The e-mail could not be sent."
+msgstr "De e-mail kon niet verstuurd worden."
+
+#: includes/class-theme-my-login.php:944
+#: includes/class-theme-my-login.php:1001
+#: modules/custom-passwords/custom-passwords.php:354
+#: modules/user-moderation/admin/user-moderation-admin.php:61
+#: modules/user-moderation/admin/user-moderation-admin.php:175
+#: modules/user-moderation/admin/user-moderation-admin.php:210
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Mogelijke oorzaak: je hostingfirma heeft misschien de mail() functie uitgeschakeld..."
+
+#: includes/class-theme-my-login.php:965
+#: includes/class-theme-my-login.php:968
+#: includes/class-theme-my-login.php:972
+#: modules/custom-passwords/custom-passwords.php:290
+#: modules/custom-passwords/custom-passwords.php:294
+#: modules/custom-passwords/custom-passwords.php:299
+#: modules/user-moderation/user-moderation.php:248
+#: modules/user-moderation/user-moderation.php:251
+#: modules/user-moderation/user-moderation.php:256
+msgid "Invalid key"
+msgstr "Ongeldige key"
+
+#: includes/class-theme-my-login.php:984
+#: modules/custom-email/custom-email.php:492
+#: modules/custom-passwords/custom-passwords.php:337
+#: modules/user-moderation/admin/user-moderation-admin.php:166
+#, php-format
+msgid "Password: %s"
+msgstr "Wachtwoord: %s"
+
+#: includes/class-theme-my-login.php:995
+#: modules/custom-passwords/custom-passwords.php:345
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Je nieuwe wachtwoord"
+
+#: includes/class-theme-my-login.php:1026
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>FOUT</strong>: Vul een gebruikersnaam in."
+
+#: includes/class-theme-my-login.php:1028
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>FOUT</strong>: Deze gebruikersnaam bevat ongeldige karakters. Vul een geldige gebruikersnaam in."
+
+#: includes/class-theme-my-login.php:1031
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>FOUT</strong>: Deze gebruikersnaam bestaat al, kies een andere."
+
+#: includes/class-theme-my-login.php:1036
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>FOUT</strong>: Vul alsjeblieft je e-mailadres in."
+
+#: includes/class-theme-my-login.php:1038
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>FOUT</strong>: Dat e-mailadres klopt niet."
+
+#: includes/class-theme-my-login.php:1041
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>FOUT</strong>: Dat e-mailadres is al geregistreerd, vul een ander in."
+
+#: includes/class-theme-my-login.php:1054
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>FOUT</strong>: Registratie was niet mogelijk... contacteer de <a href=\"mailto:%s\">webmaster</a> !"
+
+#: modules/custom-email/admin/custom-email-admin.php:43
+#: modules/custom-email/admin/custom-email-admin.php:170
+#: modules/user-moderation/admin/user-moderation-admin.php:333
+msgid "User Notification"
+msgstr "Melding voor gebruiker"
+
+#: modules/custom-email/admin/custom-email-admin.php:46
+msgid "This e-mail will be sent to a new user upon registration."
+msgstr "Deze e-mail wordt verstuurd naar nieuwe gebruikers bij registratie."
+
+#: modules/custom-email/admin/custom-email-admin.php:47
+#: modules/custom-email/admin/custom-email-admin.php:174
+#: modules/user-moderation/admin/user-moderation-admin.php:337
+msgid "Please be sure to include the variable %user_pass% if using default passwords or else the user will not know their password!"
+msgstr "Vermeld zeker de parameter %user_pass% als je standaardwachtwoorden gebruikt. Anders kent de gebruiker zijn/haar eigen wachtwoord niet!"
+
+#: modules/custom-email/admin/custom-email-admin.php:48
+#: modules/custom-email/admin/custom-email-admin.php:78
+#: modules/custom-email/admin/custom-email-admin.php:128
+#: modules/custom-email/admin/custom-email-admin.php:175
+#: modules/custom-email/admin/custom-email-admin.php:205
+#: modules/user-moderation/admin/user-moderation-admin.php:287
+#: modules/user-moderation/admin/user-moderation-admin.php:338
+#: modules/user-moderation/admin/user-moderation-admin.php:368
+#: modules/user-moderation/admin/user-moderation-admin.php:421
+msgid "If any field is left empty, the default will be used instead."
+msgstr "Als een veld leeg blijft, wordt de standaardwaarde gebruikt."
+
+#: modules/custom-email/admin/custom-email-admin.php:51
+#: modules/custom-email/admin/custom-email-admin.php:84
+#: modules/custom-email/admin/custom-email-admin.php:131
+#: modules/custom-email/admin/custom-email-admin.php:178
+#: modules/custom-email/admin/custom-email-admin.php:211
+#: modules/user-moderation/admin/user-moderation-admin.php:290
+#: modules/user-moderation/admin/user-moderation-admin.php:341
+#: modules/user-moderation/admin/user-moderation-admin.php:374
+#: modules/user-moderation/admin/user-moderation-admin.php:424
+msgid "From Name"
+msgstr "Van Naam"
+
+#: modules/custom-email/admin/custom-email-admin.php:54
+#: modules/custom-email/admin/custom-email-admin.php:87
+#: modules/custom-email/admin/custom-email-admin.php:134
+#: modules/custom-email/admin/custom-email-admin.php:181
+#: modules/custom-email/admin/custom-email-admin.php:214
+#: modules/user-moderation/admin/user-moderation-admin.php:293
+#: modules/user-moderation/admin/user-moderation-admin.php:344
+#: modules/user-moderation/admin/user-moderation-admin.php:377
+#: modules/user-moderation/admin/user-moderation-admin.php:427
+msgid "From E-mail"
+msgstr "Van E-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:57
+#: modules/custom-email/admin/custom-email-admin.php:90
+#: modules/custom-email/admin/custom-email-admin.php:137
+#: modules/custom-email/admin/custom-email-admin.php:184
+#: modules/custom-email/admin/custom-email-admin.php:217
+#: modules/user-moderation/admin/user-moderation-admin.php:296
+#: modules/user-moderation/admin/user-moderation-admin.php:347
+#: modules/user-moderation/admin/user-moderation-admin.php:380
+#: modules/user-moderation/admin/user-moderation-admin.php:430
+msgid "E-mail Format"
+msgstr "E-mail Formaat"
+
+#: modules/custom-email/admin/custom-email-admin.php:63
+#: modules/custom-email/admin/custom-email-admin.php:96
+#: modules/custom-email/admin/custom-email-admin.php:143
+#: modules/custom-email/admin/custom-email-admin.php:190
+#: modules/custom-email/admin/custom-email-admin.php:223
+#: modules/user-moderation/admin/user-moderation-admin.php:302
+#: modules/user-moderation/admin/user-moderation-admin.php:353
+#: modules/user-moderation/admin/user-moderation-admin.php:386
+#: modules/user-moderation/admin/user-moderation-admin.php:436
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: modules/custom-email/admin/custom-email-admin.php:66
+#: modules/custom-email/admin/custom-email-admin.php:99
+#: modules/custom-email/admin/custom-email-admin.php:146
+#: modules/custom-email/admin/custom-email-admin.php:193
+#: modules/custom-email/admin/custom-email-admin.php:226
+#: modules/user-moderation/admin/user-moderation-admin.php:305
+#: modules/user-moderation/admin/user-moderation-admin.php:356
+#: modules/user-moderation/admin/user-moderation-admin.php:389
+#: modules/user-moderation/admin/user-moderation-admin.php:439
+msgid "Message"
+msgstr "Boodschap"
+
+#: modules/custom-email/admin/custom-email-admin.php:69
+#: modules/custom-email/admin/custom-email-admin.php:102
+#: modules/custom-email/admin/custom-email-admin.php:149
+#: modules/custom-email/admin/custom-email-admin.php:196
+#: modules/custom-email/admin/custom-email-admin.php:229
+#: modules/user-moderation/admin/user-moderation-admin.php:308
+#: modules/user-moderation/admin/user-moderation-admin.php:359
+#: modules/user-moderation/admin/user-moderation-admin.php:392
+#: modules/user-moderation/admin/user-moderation-admin.php:442
+msgid "Available Variables"
+msgstr "Beschikbare Parameters"
+
+#: modules/custom-email/admin/custom-email-admin.php:74
+#: modules/custom-email/admin/custom-email-admin.php:201
+#: modules/user-moderation/admin/user-moderation-admin.php:364
+msgid "Admin Notification"
+msgstr "Admin Melding"
+
+#: modules/custom-email/admin/custom-email-admin.php:77
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon new user registration."
+msgstr "Deze e-mail wordt verstuurd naar de ingevulde e-mailadres of -adressen (verschillende adressen scheiden met komma's) bij een nieuwe registratie."
+
+#: modules/custom-email/admin/custom-email-admin.php:81
+#: modules/custom-email/admin/custom-email-admin.php:208
+#: modules/user-moderation/admin/user-moderation-admin.php:371
+msgid "To"
+msgstr "Aan"
+
+#: modules/custom-email/admin/custom-email-admin.php:126
+msgid "This e-mail will be sent to a user when they attempt to recover their password."
+msgstr "Deze e-mail wordt naar een gebruiker gestuurd wanneer hij/zij het wachtwoord wil herstellen."
+
+#: modules/custom-email/admin/custom-email-admin.php:127
+msgid "Please be sure to include the variable %reseturl% or else the user will not be able to recover their password!"
+msgstr "Vermeld zeker de parameter %reseturl% of de gebruiker kan het wachtwoord niet herstellen!"
+
+#: modules/custom-email/admin/custom-email-admin.php:173
+msgid "This e-mail will be sent to a user upon successful password recovery."
+msgstr "Deze e-mail wordt naar een gebruiker verstuurd wanneer het wachtwoord met succes hersteld is."
+
+#: modules/custom-email/admin/custom-email-admin.php:204
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below, upon user password change."
+msgstr "Deze e-mail wordt verstuurd naar de ingevulde e-mailadressen (verschillende adressen scheiden met komma's) bij een veranderd wachtwoord."
+
+#: modules/custom-email/admin/custom-email-admin.php:231
+#: modules/user-moderation/admin/user-moderation-admin.php:394
+msgid "Disable Admin Notification"
+msgstr "Schakel Admin Meldingen uit"
+
+#: modules/custom-email/admin/custom-email-admin.php:251
+#: templates/profile-form.php:86
+#: templates/register-form.php:16
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/custom-email/admin/custom-email-admin.php:252
+msgid "New User"
+msgstr "Nieuwe Gebruiker"
+
+#: modules/custom-email/admin/custom-email-admin.php:253
+msgid "Retrieve Password"
+msgstr "Wachtwoord Ophalen"
+
+#: modules/custom-email/admin/custom-email-admin.php:254
+msgid "Reset Password"
+msgstr "Wachtwoord Herstellen"
+
+#: modules/custom-email/custom-email.php:473
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Nieuwe registratie op je site %s:"
+
+#: modules/custom-email/custom-email.php:475
+#: modules/user-moderation/user-moderation.php:371
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: modules/custom-email/custom-email.php:477
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Nieuwe Gebruiker geregistreerd"
+
+#: modules/custom-email/custom-email.php:495
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Je gebruikersnaam en wachtwoord"
+
+#: modules/custom-email/custom-email.php:525
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Wachtwoord verloren/veranderd"
+
+#: modules/custom-email/custom-email.php:526
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Wachtwoord verloren en veranderd voor gebruiker: %s"
+
+#: modules/custom-passwords/custom-passwords.php:29
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: modules/custom-passwords/custom-passwords.php:31
+#: templates/resetpass-form.php:16
+msgid "Confirm Password:"
+msgstr "Bevestig Wachtwoord:"
+
+#: modules/custom-passwords/custom-passwords.php:54
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>FOUT</strong>: Vul een wachtwoord in."
+
+#: modules/custom-passwords/custom-passwords.php:57
+msgid "<strong>ERROR</strong>: Your passwords do not match."
+msgstr "<strong>FOUT</strong>: Wachtwoorden komen niet overeen."
+
+#: modules/custom-passwords/custom-passwords.php:60
+msgid "<strong>ERROR</strong>: Your password must be at least 6 characters in length."
+msgstr "<strong>FOUT</strong>: Je wachtwoord moet minstens zes tekens lang zijn."
+
+#: modules/custom-passwords/custom-passwords.php:188
+msgid "Please enter your username or e-mail address. You will receive an e-mail with a link to reset your password."
+msgstr "Vul je gebruikersnaam of e-mailadres in. Je krijgt dan een e-mail met een link om je wachtwoord te herstellen."
+
+#: modules/custom-passwords/custom-passwords.php:191
+msgid "Please enter a new password."
+msgstr "Vul een nieuw wachtwoord in."
+
+#: modules/custom-passwords/custom-passwords.php:224
+msgid "Registration complete. You may now log in."
+msgstr "Registratie afgewerkt. Je kan nu inloggen."
+
+#: modules/custom-passwords/custom-passwords.php:227
+msgid "Your password has been saved. You may now log in."
+msgstr "Je wachtwoord is opgeslagen. Je kan nu inloggen."
+
+#: modules/custom-redirection/custom-redirection.php:148
+msgid "Redirection"
+msgstr "Doorverwijzen"
+
+#: modules/custom-redirection/custom-redirection.php:175
+msgid "Log in"
+msgstr "Inloggen"
+
+#: modules/custom-redirection/custom-redirection.php:177
+#: modules/custom-redirection/custom-redirection.php:189
+msgid "Default"
+msgstr "Standaard"
+
+#: modules/custom-redirection/custom-redirection.php:178
+msgid "Check this option to send the user to their WordPress Dashboard/Profile."
+msgstr "Zet deze optie aan om de gebruiker naar hun WordPress Dashboard/Profiel te sturen."
+
+#: modules/custom-redirection/custom-redirection.php:179
+#: modules/custom-redirection/custom-redirection.php:191
+msgid "Referer"
+msgstr "Referer"
+
+#: modules/custom-redirection/custom-redirection.php:180
+msgid "Check this option to send the user back to the page they were visiting before logging in."
+msgstr "Zet deze optie aan om de gebruiker terug naar de pagina te sturen waar hij/zij zich bevond voor het inloggen."
+
+#: modules/custom-redirection/custom-redirection.php:183
+#: modules/custom-redirection/custom-redirection.php:195
+msgid "Check this option to send the user to a custom location, specified by the textbox above."
+msgstr "Zet deze optie aan om de gebruiker naar de ingevulde locatie te sturen."
+
+#: modules/custom-redirection/custom-redirection.php:190
+msgid "Check this option to send the user to the log in page, displaying a message that they have successfully logged out."
+msgstr "Zet deze optie aan om de gebruiker naar de loginpagina te sturen, met een boodschap dat hij/zij succesvol is uitgelogd."
+
+#: modules/custom-redirection/custom-redirection.php:192
+msgid "Check this option to send the user back to the page they were visiting before logging out. (Note: If the previous page being visited was an admin page, this can have unexpected results.)"
+msgstr "Zet deze optie aan om de gebruiker terug naar de pagina te sturen waar hij/zij zich bevond voor het uitloggen. (Opmerking: als dat een admin-pagina was, kunnen er onvoorspelbare dingen gebeuren)."
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:139
+msgid "User Links"
+msgstr "Gebruikerslinks"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:229
+#: modules/custom-user-links/admin/custom-user-links-admin.php:252
+#: modules/custom-user-links/admin/custom-user-links-admin.php:297
+msgid "Title"
+msgstr "Titel"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:230
+#: modules/custom-user-links/admin/custom-user-links-admin.php:253
+#: modules/custom-user-links/admin/custom-user-links-admin.php:301
+msgid "URL"
+msgstr "URL"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:247
+msgid "Add New link:"
+msgstr "Nieuwe link toevoegen:"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:263
+msgid "Add link"
+msgstr "Link toevoegen"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:303
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: modules/custom-user-links/admin/custom-user-links-admin.php:304
+msgid "Update"
+msgstr "Update"
+
+#: modules/security/admin/security-admin.php:35
+#: modules/security/admin/security-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:38
+#: modules/user-moderation/admin/user-moderation-admin.php:50
+msgid "You can&#8217;t edit that user."
+msgstr "Je kan die gebruiker niet bewerken."
+
+#: modules/security/admin/security-admin.php:70
+#, fuzzy
+msgid "User locked."
+msgstr "Gebruiker op slot."
+
+#: modules/security/admin/security-admin.php:72
+#, fuzzy
+msgid "User unlocked."
+msgstr "Gebruiker niet op slot"
+
+#: modules/security/admin/security-admin.php:95
+#, fuzzy
+msgid "Unlock"
+msgstr "Van slot halen"
+
+#: modules/security/admin/security-admin.php:97
+#, fuzzy
+msgid "Lock"
+msgstr "Op slot zetten"
+
+#: modules/security/admin/security-admin.php:116
+msgid "Security"
+msgstr "Beveiliging"
+
+#: modules/security/admin/security-admin.php:136
+msgid "Login Attempts"
+msgstr "Pogingen tot inloggen"
+
+#: modules/security/admin/security-admin.php:141
+msgid "minute(s)"
+msgstr "minuut/minuten"
+
+#: modules/security/admin/security-admin.php:142
+msgid "hour(s)"
+msgstr "uur/uren"
+
+#: modules/security/admin/security-admin.php:143
+msgid "day(s)"
+msgstr "dag(en)"
+
+#: modules/security/admin/security-admin.php:166
+#, fuzzy, php-format
+msgid "After %1$s failed login attempts within %2$s %3$s, lockout the account for %4$s %5$s."
+msgstr "Na %1$s mislukte pogingen tot inloggen binnen de %2$s %3$s, doe het account op slot voor %4$s %5$s."
+
+#: modules/security/security.php:43
+#: modules/security/security.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: This account has been locked because of too many failed login attempts. You may try again in %s."
+msgstr "<strong>FOUT</strong>: Dit account is op slot door te veel login-pogingen. Je kan opnieuw proberen binnen %s."
+
+#: modules/security/security.php:45
+msgid "<strong>ERROR</strong>: This account has been locked."
+msgstr "<strong>FOUT</strong>: Dit account is op slot."
+
+#: modules/themed-profiles/themed-profiles.php:77
+#: templates/profile-form.php:125
+msgid "Strength indicator"
+msgstr "Veiligheidsindicatie"
+
+#: modules/themed-profiles/themed-profiles.php:78
+msgid "Very weak"
+msgstr "Zeer zwak"
+
+#: modules/themed-profiles/themed-profiles.php:79
+msgid "Weak"
+msgstr "Zwak"
+
+#. translators: password strength
+#: modules/themed-profiles/themed-profiles.php:81
+msgctxt "password strength"
+msgid "Medium"
+msgstr "Medium"
+
+#: modules/themed-profiles/themed-profiles.php:82
+msgid "Strong"
+msgstr "Sterk"
+
+#: modules/themed-profiles/themed-profiles.php:92
+msgid "You do not have permission to edit this user."
+msgstr "Je hebt geen toestemming om deze gebruiker te bewerken."
+
+#: modules/themed-profiles/themed-profiles.php:108
+msgid "Profile updated."
+msgstr "Profiel aangepast."
+
+#: modules/themed-profiles/themed-profiles.php:178
+msgid "Your Profile"
+msgstr "Jouw Profiel"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:83
+msgid "User approved."
+msgstr "Gebruiker goedgekeurd."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:85
+msgid "Activation sent."
+msgstr "Activering verstuurd."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:111
+msgid "Resend Activation"
+msgstr "Verstuur Activering opnieuw"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:116
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:150
+#: modules/user-moderation/user-moderation.php:275
+msgid "Same as when you signed up."
+msgstr "Hetzelfde als bij registratie."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:164
+#, php-format
+msgid "You have been approved access to %s"
+msgstr "Je hebt toegang gekregen tot %s"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:169
+#, php-format
+msgid "[%s] Registration Approved"
+msgstr "[%s] Registratie Goedgekeurd"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:203
+#, php-format
+msgid "You have been denied access to %s"
+msgstr "Toegang tot %s is geweigerd"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:204
+#, php-format
+msgid "[%s] Registration Denied"
+msgstr "[%s] Registratie Geweigerd"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:226
+msgid "Moderation"
+msgstr "Moderatie"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:228
+msgid "User Activation"
+msgstr "Activering Gebruiker"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:229
+msgid "User Approval"
+msgstr "Goedkeuring Gebruiker"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:230
+msgid "User Denial"
+msgstr "Weigering Gebruiker"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:249
+msgid "User Moderation"
+msgstr "Moderatie Gebruiker"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:252
+#, fuzzy
+msgid "None"
+msgstr "Geen"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:253
+msgid "Check this option to require no moderation."
+msgstr "Zet deze optie aan om moderatie uit te schakelen."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:255
+msgid "E-mail Confirmation"
+msgstr "Bevestiging per e-mail"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:256
+msgid "Check this option to require new users to confirm their e-mail address before they may log in."
+msgstr "Zet deze optie aan om gebruikers hun e-mail te laten bevestigen voor ze kunnen inloggen."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:258
+msgid "Admin Approval"
+msgstr "Goedkeuring door Beheerder"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:259
+msgid "Check this option to require new users to be approved by an administrator before they may log in."
+msgstr "Zet deze optie aan om goedkeuring door een beheerder verplicht te maken voor gebruikers kunnen inloggen."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:285
+msgid "This e-mail will be sent to a new user upon registration when \"E-mail Confirmation\" is checked for \"User Moderation\"."
+msgstr "Deze e-mail zal naar nieuwe gebruikers gestuurd worden als  \"Bevestiging per e-mail\" is ingeschakeld for \"Moderatie Gebruiker\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:286
+msgid "Please be sure to include the variable %activateurl% or else the user will not be able to activate their account!"
+msgstr "Vermeld zeker de parameter %activateurl% of de gebruiker zal zijn/haar account niet kunnen activeren!"
+
+#: modules/user-moderation/admin/user-moderation-admin.php:336
+msgid "This e-mail will be sent to a new user upon admin approval when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Deze e-mail zal naar nieuwe gebruikers gestuurd worden als  \"Goedkeuring door Beheerder\" is ingeschakeld for \"Moderatie Gebruiker\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:367
+msgid "This e-mail will be sent to the e-mail address or addresses (multiple addresses may be separated by commas) specified below upon user registration when \"Admin Approval\" is checked for \"User Moderation\"."
+msgstr "Deze e-mail wordt verstuurd naar de ingevulde e-mailadressen (verschillende adressen scheiden met komma's) bij een nieuwe registratie, als \"Goedkeuring door Beheerder\" is ingeschakeld voor \"Moderatie Gebruiker\"."
+
+#: modules/user-moderation/admin/user-moderation-admin.php:420
+msgid "This e-mail will be sent to a user who is deleted/denied when \"Admin Approval\" is checked for \"User Moderation\" and the user's role is \"Pending\"."
+msgstr "Deze e-mail zal naar verwijderde/geweigerde gebruikers gestuurd worden als  \"Goedkeuring door Beheerder\" is ingeschakeld for \"Moderatie Gebruiker\" en de rol van de gebruiker \"Wachtrij\" is."
+
+#: modules/user-moderation/user-moderation.php:171
+#, php-format
+msgid "<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a href=\"%s\">Resend activation</a>?"
+msgstr "<strong>FOUT</strong>: Je e-mailadres is niet bevestigd. <a href=\"%s\">Activering opnieuw versturen</a>?"
+
+#: modules/user-moderation/user-moderation.php:174
+msgid "<strong>ERROR</strong>: Your registration has not yet been approved."
+msgstr "<strong>FOUT</strong>: Je registratie is nog niet goedgekeurd."
+
+#: modules/user-moderation/user-moderation.php:334
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Activeer je Account"
+
+#: modules/user-moderation/user-moderation.php:335
+#, php-format
+msgid "Thanks for registering at %s! To complete the activation of your account please click the following link: "
+msgstr "Bedankt voor je registratie bij %s! Om je account te activeren, klik op deze link:"
+
+#: modules/user-moderation/user-moderation.php:367
+#, php-format
+msgid "[%s] New User Awaiting Approval"
+msgstr "[%s] Nieuwe Gebruiker Wacht op Goedkeuring"
+
+#: modules/user-moderation/user-moderation.php:369
+#, php-format
+msgid "New user requires approval on your blog %s:"
+msgstr "Een nieuwe gebruiker wacht op goedkeuring op je blog %s:"
+
+#: modules/user-moderation/user-moderation.php:372
+msgid "To approve or deny this user:"
+msgstr "Om deze gebruiker goed te keuren of te weigeren:"
+
+#: modules/user-moderation/user-moderation.php:393
+msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
+msgstr "Je registratie was succesvol, maar je moet nu je e-mailadres bevestigen voor je kan inloggen. Check je e-mail en klik op de link in het bericht."
+
+#: modules/user-moderation/user-moderation.php:395
+msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
+msgstr "Je registratie was succesvol, maar je moet nog goedgekeurd worden door een beheerder voor je kan inloggen. Je krijgt een e-mail als je account is bekeken."
+
+#: modules/user-moderation/user-moderation.php:398
+msgid "Your account has been activated. You may now log in."
+msgstr "Je account werd geactiveerd. Je kan nu inloggen."
+
+#: modules/user-moderation/user-moderation.php:400
+msgid "Your account has been activated. Please check your e-mail for your password."
+msgstr "Je account is geactiveerd. Kijk je e-mail na voor je wachtwoord."
+
+#: modules/user-moderation/user-moderation.php:402
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr "<strong>FOUT</strong>: Sorry, die key lijkt ongeldig."
+
+#: modules/user-moderation/user-moderation.php:405
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr "<strong>FOUT</strong>: Sorry, de activatiemail kon niet verstuurd worden."
+
+#: modules/user-moderation/user-moderation.php:407
+msgid "The activation e-mail has been sent to the e-mail address with which you registered. Please check your email and click on the link provided."
+msgstr "De activatiemail is verstuurd naar het e-mailadres waarmee je geregistreerd bent. Check je e-mail en klik op de link."
+
+#: templates/login-form.php:12
+#: templates/profile-form.php:34
+#: templates/register-form.php:12
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: templates/login-form.php:16
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: templates/login-form.php:25
+msgid "Remember Me"
+msgstr "Onthou Ma"
+
+#: templates/lostpassword-form.php:12
+msgid "Username or E-mail:"
+msgstr "Gebruikersnaam of E-mail:"
+
+#: templates/lostpassword-form.php:20
+msgid "Get New Password"
+msgstr "Vraag nieuw wachtwoord"
+
+#: templates/profile-form.php:22
+msgid "Personal Options"
+msgstr "Persoonlijke opties"
+
+#: templates/profile-form.php:30
+msgid "Name"
+msgstr "Naam"
+
+#: templates/profile-form.php:35
+msgid "Your username cannot be changed."
+msgstr "Je gebruikersnaam kan niet veranderd worden."
+
+#: templates/profile-form.php:39
+msgid "First name"
+msgstr "Voornaam"
+
+#: templates/profile-form.php:44
+msgid "Last name"
+msgstr "Familienaam"
+
+#: templates/profile-form.php:49
+#, fuzzy
+msgid "Nickname"
+msgstr "Gebruikersnaam"
+
+#: templates/profile-form.php:49
+#: templates/profile-form.php:86
+msgid "(required)"
+msgstr "(verplicht)"
+
+#: templates/profile-form.php:54
+msgid "Display name publicly as"
+msgstr "Toon naam publiek als"
+
+#: templates/profile-form.php:82
+msgid "Contact Info"
+msgstr "Contactinfo"
+
+#: templates/profile-form.php:91
+msgid "Website"
+msgstr "Website"
+
+#: templates/profile-form.php:108
+msgid "About Yourself"
+msgstr "Over jouw"
+
+#: templates/profile-form.php:112
+msgid "Biographical Info"
+msgstr "Biografische informatie"
+
+#: templates/profile-form.php:114
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Noteer wat biografische informatie om je profiel aan te vullen. Dit kan publiek getoond worden."
+
+#: templates/profile-form.php:122
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#: templates/profile-form.php:123
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Als je je wachtwoord wil veranderen, typ dan een nieuw. Laat anders dit veld leeg."
+
+#: templates/profile-form.php:124
+msgid "Type your new password again."
+msgstr "Typ je nieuw wachtwoord nog een keer."
+
+#: templates/profile-form.php:126
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Opmerking: Het wachtwoord moet minstens zeven tekens lang zijn. Om het sterker te maken, gebruik je kleine en grote letters, nummers en symbolen als ! \" ? $ % ^ &amp; )."
+
+#: templates/profile-form.php:140
+#, fuzzy
+msgid "Additional Capabilities"
+msgstr "Extra Mogelijkheden"
+
+#: templates/profile-form.php:159
+msgid "Update Profile"
+msgstr "Profiel Aanpassen"
+
+#: templates/register-form.php:23
+msgid "A password will be e-mailed to you."
+msgstr "Je krijgt per e-mail een wachtwoord."
+
+#: templates/resetpass-form.php:12
+msgid "New Password:"
+msgstr "Nieuw wachtwoord:"
+
+#: templates/resetpass-form.php:24
+msgid "Change Password"
+msgstr "Verander Wachtwoord"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+msgstr "http://www.jfarthing.com/wordpress-plugins/theme-my-login/"
+
+#. Description of the plugin/theme
+msgid "Themes the WordPress login, registration and forgot password pages according to your theme."
+msgstr "Past de WordPress login, registratie en wachtwoord-herinnering aan volgens je WordPress-theme."
+
+#. Author of the plugin/theme
+msgid "Jeff Farthing"
+msgstr "Jeff Farthing"
+
+#. Author URI of the plugin/theme
+msgid "http://www.jfarthing.com"
+msgstr "http://www.jfarthing.com"
+
