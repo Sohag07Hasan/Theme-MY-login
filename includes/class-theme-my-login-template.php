@@ -294,7 +294,7 @@ class Theme_My_Login_Template {
 		if ( $action_links = $this->get_action_links( $args ) ) {
 			echo '<ul class="tml-action-links">' . "\n";
 			foreach ( (array) $action_links as $link ) {
-				echo '<li><a href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( $link['title'] ) . '</a></li>' . "\n";
+				echo '<li><a href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( __($link['title']) ) . '</a></li>' . "\n";
 			}
 			echo '</ul>' . "\n";
 		}
