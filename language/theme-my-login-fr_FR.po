@@ -921,11 +921,11 @@ msgstr "Approuver ou refuser cet utilisateur :"
 
 #: modules/user-moderation/user-moderation.php:393
 msgid "Your registration was successful but you must now confirm your email address before you can log in. Please check your email and click on the link provided."
-msgstr "Votre inscription a réussie mais vous devez maintenant confirmer votre adresse e-mail pour pouvoir vous connecter.  Merci de vérifier votre email et de cliquer sur le lien fourni."
+msgstr "Votre inscription a réussi mais vous devez maintenant confirmer votre adresse e-mail pour pouvoir vous connecter.  Merci de vérifier votre email et de cliquer sur le lien fourni."
 
 #: modules/user-moderation/user-moderation.php:395
 msgid "Your registration was successful but you must now be approved by an administrator before you can log in. You will be notified by e-mail once your account has been reviewed."
-msgstr "Votre inscription a réussie mais vous devez maintenant être approuvé par l'administrateur avant de pouvoir vous connecter.  Vous serez averti par e-mail dès que votre compte aura été approuvé"
+msgstr "Votre inscription a réussi mais vous devez maintenant être approuvé par l'administrateur avant de pouvoir vous connecter.  Vous serez averti par e-mail dès que votre compte aura été approuvé"
 
 #: modules/user-moderation/user-moderation.php:398
 msgid "Your account has been activated. You may now log in."
